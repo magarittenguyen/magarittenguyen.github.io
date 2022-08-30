@@ -30,17 +30,17 @@ Differences:
 > Data science problems are formulated and tested using a modeling process which focuses on the predictive accuracy of the model. Data scientists do this by comparing the predictive accuracy of different machine learning algorithms and selecting the model with the best accuracy.
 
 - Concepts of interest
-> Statisticians deal with concepts like point estimates, margins of error, confidence intervals, standard errors, p-values, and hypothesis testing
+> Statisticians deal with concepts like point estimates, margins of error, confidence intervals, standard errors, p-values, and hypothesis testing.
 > 
-> Data scientists closely follow the “data science process” -- data ingest, data transformation, exploratory data analysis, model selection, model evaluation, and data storytelling 
+> Data scientists closely follow the “data science process” -- data ingest, data transformation, exploratory data analysis, model selection, model evaluation, and data storytelling. 
 
 - Public understanding
-> Statisticians can be viewed as confusing to the general public
+> Statisticians can be viewed as confusing to the general public.
 > 
-> Data science is more approachable - in a more digestible wrapper for understanding
+> Data science is more approachable - in a more digestible wrapper for understanding.
 
 - Communication: nomenclature for describing similar principals
-> Data scientists speak of things like: “example” whereas statisticians use “observation,” “feature” versus “predictor” or “independent variable,” “label” versus “response” or “dependent variable.”
+> Data scientists speak of things like: “example” whereas statisticians use “observation,” “feature” versus “predictor” or “independent variable,” “label” versus “response” or “dependent variable.”.
 
 Similarities:
 - Both data scientists and statisticians tend to gather information for similar purposes
