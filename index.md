@@ -1,7 +1,9 @@
 29AUG2022
+
 Hi! Just trying ot figure out how to use GitHub!
 
 01SEP2022
+
 Hello, to myself again and anyone else interested in looking at this. Hi Dr. Post! I'm updating my _index.md_ portion of my blog this time (again? Not sure if I was or was not supposed to the first time when we created our first blog posts). I'm not sure exactly what I'll be blogging about, but this page is for ST558 (Data Science for Statisticains) at North Carolina State University Master of Statistics Program. Hmm - it seems like I'm not sure about a lot of things... lol. 
 
 A little bit about me:
