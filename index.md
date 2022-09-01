@@ -1,6 +1,6 @@
 29AUG2022
 
-Hi! Just trying ot figure out how to use GitHub!
+Hi! Just trying to figure out how to use GitHub!
 
 01SEP2022
 
