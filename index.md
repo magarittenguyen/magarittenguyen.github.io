@@ -7,7 +7,7 @@ Hi! Just trying to figure out how to use GitHub!
 Hello, to myself again and anyone else interested in looking at this. Hi Dr. Post! I'm updating my _index.md_ portion of my blog this time (again? Not sure if I was or was not supposed to the first time when we created our first blog posts). I'm not sure exactly what I'll be blogging about, but this page is for ST558 (Data Science for Statisticains) at North Carolina State University Master of Statistics Program. Hmm - it seems like I'm not sure about a lot of things... lol. 
 
 A little bit about me:
-> - I live in Downtown Durham, NC a block away from the new Bull's stadium in a tiny *tiny* flat
+> - I live in Downtown Durham, NC a block away from the new Bull's stadium in a ~~tiny~~ *tiny* flat
 > - I work full time as a Statitical Programmer II at a small CRO that is based out of Caimbrige, MA (I work remotely 100%)
 > - I have not pets nor children yet
 > - I like the color black and green has been growing on me lately (sage, olive, seafoam green)
