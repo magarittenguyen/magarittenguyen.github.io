@@ -19,12 +19,13 @@ A little bit about me:
 >>> Here is the first image I want to try making a block print for:
 >>> **In Color**
 >>> 
->>> ![BMO in Color](https://github.com/magarittenguyen/magarittenguyen.github.io/issues/1#issuecomment-1234724588)
+>>> ![BMO in Color](https://user-images.githubusercontent.com/112360874/188002216-2b62eba7-aed0-4000-a095-a3b40e579e4e.jpg)
+
 >>>
 >>> **In Black and White**
 >>> 
->>> ![BMO in Black and White](https://github.com/magarittenguyen/magarittenguyen.github.io/issues/1#issuecomment-1234723320)
-
+>>> ![BMO in Black and White](https://user-images.githubusercontent.com/112360874/188002030-630e6bb8-bd17-4992-8278-5f042242510d.jpg)
+                              
 > that uses markdown syntax (lists, images, etc.). 
 
 Here is my school email again: tnnguye8@ncsu.edu 
