@@ -19,11 +19,11 @@ A little bit about me:
 >>> Here is the first image I want to try making a block print for:
 >>> **In Color**
 >>> 
->>> [D:\Magaritte\School\NCSU Masters of Statistics DL Program\ST 558 (601) FALL 2022 - Data Science for Statisticians\Homework\02_HW2\BMO Color On A Skateboard.jpg]
+>>> ![BMO in Color](https://github.com/magarittenguyen/magarittenguyen.github.io/issues/1#issuecomment-1234724588)
 >>>
 >>> **In Black and White**
 >>> 
->>> [D:\Magaritte\School\NCSU Masters of Statistics DL Program\ST 558 (601) FALL 2022 - Data Science for Statisticians\Homework\02_HW2\BMO B&W On A Skateboard.jpg]
+>>> ![BMO in Black and White](https://github.com/magarittenguyen/magarittenguyen.github.io/issues/1#issuecomment-1234723320)
 
 > that uses markdown syntax (lists, images, etc.). 
 
