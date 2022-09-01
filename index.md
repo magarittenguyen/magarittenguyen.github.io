@@ -16,11 +16,13 @@ A little bit about me:
 > - I had a blonde phase that fried my hair (there is a photo in moodle where it was in the mid fried stages)
 > - Lately, I've been thinking about getting into block printing (with all the free time I have... lol) to make fabric/canvas patches for a wagon I just bought   
 >
->> - Here is the first image I want to try making a block print for:
->>> In Color
+> - Here is the first image I want to try making a block print for:
+>>> **In Color**
+>>> 
 >>> [D:\Magaritte\School\NCSU Masters of Statistics DL Program\ST 558 (601) FALL 2022 - Data Science for Statisticians\Homework\02_HW2\BMO Color On A Skateboard.jpg]
->> 
->>> In Black and White
+>>>
+>>> **In Black and White**
+>>> 
 >>> [D:\Magaritte\School\NCSU Masters of Statistics DL Program\ST 558 (601) FALL 2022 - Data Science for Statisticians\Homework\02_HW2\BMO B&W On A Skateboard.jpg]
 
 > that uses markdown syntax (lists, images, etc.). 
