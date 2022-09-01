@@ -16,8 +16,8 @@ A little bit about me:
 > - I had a blonde phase that fried my hair (there is a photo in moodle where it was in the mid fried stages)
 > - Lately, I've been thinking about getting into block printing (with all the free time I have... lol) to make fabric/canvas patches for a wagon I just bought   
 >
->>> Here is the first image I want to try making a block print for:  
->>> 
+>>> Here is the first image I want to try making a block print for:    
+
 >>> **In Color**  
 >>> 
 >>> ![BMO in Color](https://user-images.githubusercontent.com/112360874/188002216-2b62eba7-aed0-4000-a095-a3b40e579e4e.jpg)  
