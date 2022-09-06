@@ -53,7 +53,9 @@ Similarities:
 
 I view myself as neither, but if I had to choose then it would be more along the lines of statistician. I'm still a junior programmer and I don’t implement model procedures much into my programs outside of summary statistics. I'm not a data scientist because the studies I've been on do not have a massive amount of records. I think that the path I'm on is more traditionally for a statistician, but by taking this class I hope to learn more about being a data scientist. 
 
+<!---
 #### Your blog post can be written in a conversational tone or more formally (however you want to represent yourself). There is no word count or anything like that, just make sure you answer the prompts above to receive full credit. Submit the URL for your GitHub blog in the text box. 
 
 link for creating a blog: https://chadbaldwin.net/2021/03/14/how-to-build-a-sql-blog.html
+--->
 
