@@ -15,7 +15,7 @@ As far as the differences/similarities between the two goes, please see the foll
 
 Differences:
 - Level of knowledge of statistics
-> Sat need to understand the modeling and structure of data
+> Statisticians need to understand the modeling and structure of data
 >
 > Data scientists need to understand applied statistics
 
