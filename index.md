@@ -8,7 +8,7 @@ Hello, to myself again and anyone else interested in looking at this. Hi Dr. Pos
 
 A little bit about me:
 > - I live in Downtown Durham, NC a block away from the new Bull's stadium in a ~~tiny~~ *tiny* flat
-> - I work full time as a Statitical Programmer II at a small CRO that is based out of Caimbrige, MA (I work remotely 100%)
+> - I work full time as a Statistical Programmer II at a small CRO that is based out of Caimbrige, MA (I work remotely 100%)
 > - I have not pets nor children yet
 > - I like the color black and green has been growing on me lately (sage, olive, seafoam green)
 > - I have 3 more classes I need to take after this semster to complete my Master of Statisticas at NCSU (I'm part time)
