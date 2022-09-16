@@ -1,4 +1,12 @@
 ## ST558 - My Second Blog Post  
+<!--
+Overview
+
+This assignment is to create a blog post using your github blog.  See below for the blog post prompt. Assesses LO 1.3 and others.
+Completion time
+
+The estimated time to complete this assignment is 20-40 minutes.
+-->
 
 ### Instructions  
 #### Write a blog post to respond to the prompt below:
@@ -31,10 +39,21 @@ What I learned through this entire project is that programming is frustrating - 
 
 *what you would do differently, etc.*
 
+<!--
+Your blog post can be written in a conversational tone or more formally (however you want to represent yourself).  There is no word count or anything like that, just make sure you answer the prompts above to receive full credit. 
+Submit the URL for your github blog in the text box. 
+
+Notes from Discussion Board:
+
 Some things that I would do differntly is spend more time on my typography choices(?). I'm not sure I realy did those correctly, but I pretty much put the "` `" symbols around anything I thought was important coding wise. I also would have treid to write the narrative and edit my comments as I was completing the project because going back over it would have just been proof reading and checking spacing - rather than having to go back many more times making sure I understood what I was doing after the fact. Lastly, I always feel like I should start sooner rather than later, even though I did start pretty early onthis project.
 
 After chatting with a few people, I should give some more guidance! You can just upload your .html file into your main repo area (the part that has the _posts folder in it). From there you can take the file name (say project1.html) and append that to your github.io site. For instance, https://jbpost2.github.io/project1.html
 
 That provides a link to the project html page!
 
-[Test Link to HW 2](magarittenguyen.github.io/ST558_HW2_Magaritte_Nguyen_HTML.html)
+video that helped me with adding link to project:
+https://www.youtube.com/watch?v=WdH7W2_W2Cc
+-->
+
+[Link That Takes You to Project 1](https://magarittenguyen.github.io/ST558_Project1_Magaritte_Nguyen_HTML.html )
+
