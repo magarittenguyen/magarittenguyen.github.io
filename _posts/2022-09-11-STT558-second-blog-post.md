@@ -13,7 +13,7 @@ The estimated time to complete this assignment is 20-40 minutes.
 
 #### You've just completed your first project for the course - hooray!  Write a blog post reflecting on your project (what was the purpose of the project, what did you learn, what you would do differently, etc.).  You should upload your final document from project 1 and link to it as well. Your blog post can be written in a conversational tone or more formally (however you want to represent yourself).  There is no word count or anything like that, just make sure you answer the prompts above to receive full credit.
    
-*what was the purpose of the project*
+.: *what was the purpose of the project* :.
 
 Hooray! We finally finished our first project in the course and I didn't die too bad. 
 
@@ -31,21 +31,22 @@ In summary, I think the purpose of this project was to get us to do the followin
 > - create plotting functions that we can use for many different inputs
 > - keeping in mind that we always have default values for our functions if we chose not to sepcify an input
 > - show us how to create custom functions little by little
-> - challenge us with an excersise that takes things we learned and apply them step by step to create a custom function
+> - challenge us with an excersise that takes things we learned and apply them step by step to create a custom function 
+> - small steps leading to a bigger task
 
- *what did you learn*
+ .: *what did you learn* :.
  
-What I learned through this entire project is that programming is frustrating - especially if you're working on one screen. Being organized in you program is important to -- like keeping parethases in check, because it can get very confusing. I had to label mine so that I wouldnt get lost. I copied all the directions out first and then commented as much as I could as I completed the project. This helped a lot becaues I didnt have to flip back and forth between applicaitons. I reinforced what functions go to which tidyverse package because that was a bit confusing at first, but I think that comes with practice/exposue. I got to learn funcitons more carefully just by looking up how to use them. I have some SAS knowledge, so it was interesting to see how it is programmed in R. I also didn' realize you could reference a variable in a dataset without merging/combining it first. It was the step where we had to pick the x amount of states from the manipulted dataset in order to pick those states in the orgional dataset and plot those observations. I allso learned how to use nested ifelse() functions. That part was very tedious to me.
+What I learned through this entire project is that programming is frustrating - especially if you're working on one screen. Being organized in you program is important to -- like keeping parethases in check, because it can get very confusing. I had to label my closing parenthases so that I wouldn't get lost. I copied all the directions over first and then commented as much as I could as I completed the project. This helped a lot because I didn't have to flip back and forth between applicaitons. I reinforced what functions go to which tidyverse toolkit/package because that was a bit confusing at first, but I think that comes with practice/exposue. I got to learn funcitons more carefully just by looking up how to use them and explaining with the narrative. I have some SAS knowledge, so it was interesting to see how certain things are programmed in R. I also didn't realize you could reference a variable in a dataset without merging/combining it first. It was the step where we had to pick the x amount of states from the manipulated dataset in order to pick those states in the orgional dataset and plot those observations. I also learned how to use nested ifelse() functions. That part was very tedious to me.
 
-*what you would do differently, etc.*
+.: *what you would do differently, etc.* :.
+
+Some things that I would do differntly is spend more time on my typography choices(?). I'm not sure I realy did those correctly, but I pretty much put the tick symbols around anything I thought was important coding wise. I also would have tried to write the narrative and edit my comments as I was completing the project because going back over it would have just been proof reading and checking spacing once - rather than having to go back many more times making sure I understood what I was doing again after the fact and losing my train of thought. Lastly, I always feel like I should start sooner rather than later, even though I did start pretty early on this project.
 
 <!--
 Your blog post can be written in a conversational tone or more formally (however you want to represent yourself).  There is no word count or anything like that, just make sure you answer the prompts above to receive full credit. 
 Submit the URL for your github blog in the text box. 
 
 Notes from Discussion Board:
-
-Some things that I would do differntly is spend more time on my typography choices(?). I'm not sure I realy did those correctly, but I pretty much put the "` `" symbols around anything I thought was important coding wise. I also would have treid to write the narrative and edit my comments as I was completing the project because going back over it would have just been proof reading and checking spacing - rather than having to go back many more times making sure I understood what I was doing after the fact. Lastly, I always feel like I should start sooner rather than later, even though I did start pretty early onthis project.
 
 After chatting with a few people, I should give some more guidance! You can just upload your .html file into your main repo area (the part that has the _posts folder in it). From there you can take the file name (say project1.html) and append that to your github.io site. For instance, https://jbpost2.github.io/project1.html
 
