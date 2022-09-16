@@ -56,5 +56,5 @@ video that helped me with adding link to project:
 https://www.youtube.com/watch?v=WdH7W2_W2Cc
 -->
 
-[Link That Takes You to Project 1](https://magarittenguyen.github.io/ST558_Project1_Magaritte_Nguyen_HTML.html )
+[Link That Takes You to My Project 1](https://magarittenguyen.github.io/ST558_Project1_Magaritte_Nguyen_HTML.html)
 
