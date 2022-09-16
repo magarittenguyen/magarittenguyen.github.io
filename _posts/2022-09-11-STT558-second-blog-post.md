@@ -37,4 +37,4 @@ After chatting with a few people, I should give some more guidance! You can just
 
 That provides a link to the project html page!
 
-[Test Link to HW 2](https://github.com/magarittenguyen/magarittenguyen.github.io/ST558_HW2_Magaritte_Nguyen_HTML.html)
+[Test Link to HW 2](magarittenguyen.github.io/ST558_HW2_Magaritte_Nguyen_HTML.html)
