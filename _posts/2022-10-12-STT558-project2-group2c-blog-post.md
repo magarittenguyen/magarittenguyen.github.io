@@ -118,13 +118,12 @@ Some things that I found difficult were:
 
 Some things that I would do differently:
 
-> Try to start earlier, it was over fall break and some plans that had been made, made it difficult to meet up and work together
-> Most of the work was meeting, delegating and working on our own, no sharing screens as much, like we took sections, it wasnt like we worked on all the sections together by sharing screens/ logic at first. But, we did walk each other through what we did the next day and expalined our logic. Not sure which approach is best... (ended up working together a lot more towards the end) 
-> I wasnt sure how to set up the repo stuff but my partner has more experisnce using is because hes going for a master in computer scinece and was well versed. That was great to have someone with experince with this. My only exposure has been this class... 
-
-I always wish I have more time, but I think we did a good job with the time we had.
-
-Some things that I would do differntly is spend more time on my typography choices(?) again. I'm not sure I realy did those correctly, but I pretty much put the tick symbols around anything I thought was important coding wise. I also would have tried to write the narrative and edit my comments as I was completing the project because going back over it would have just been proof reading and checking spacing once - rather than having to go back many more times making sure I understood what I was doing again after the fact and losing my train of thought. Lastly, I always feel like I should start sooner rather than later, even though I did start pretty early on this project.
+> - Try to start earlier, it was over fall break and some plans that had been made, made it difficult to meet up and work together
+> - Most of the work was meeting, delegating and working on our own, no sharing screens as much, like we took sections, it wasnt like we worked on all the sections together by sharing screens/ logic at first. But, we did walk each other through what we did the next day and expalined our logic. Not sure which approach is best... (ended up working together a lot more towards the end) 
+> - I wasnt sure how to set up the repo stuff but my partner has more experisnce using is because hes going for a master in computer scinece and was well versed. That was great to have someone with experince with this. My only exposure has been this class... 
+> - Spend more time on my typography choices(?) again. 
+> - Tried to write the narrative and edit my comments as I was completing the project because going back over it would have just been proof reading and checking spacing once 
+> - I always feel like I should start sooner rather than later, even though I did start pretty early on this project. (I always wish I have more time, but I think we did a good job with the time we had.)
 
 Is it bad that I still feel the same as for the last projecct with the paragraph above?
 
