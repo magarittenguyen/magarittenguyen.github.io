@@ -61,9 +61,9 @@ While he was away for fall break, I was able to set up create the render file an
 
 Once we had our first function, I called it twice and saved the object. While testing I noticed that for the keyword "fruit", the most recpies returned was for the Aerican cuisine. So, I decided to use this for my exploratory data analysis (EDA). I forgot to mention that our function also has an option to append nutrient data to it. But, to access more nutrient info, I had to index a list of list in a couple more levels. 
 
-I created a new object called nutrients that looked at calories, carbs, protein, and fat. I go on to append a five number summary of protien (g) content in the recipies to the nutrient object. I also add on a variable for the total price of the recipie in USD and a variable for grams of protein per serving of food in a recipe.
+I created a new object called nutrients that looked at calories, carbs, protein, and fat. I go on to append a five number summary of protien (g) content in the recipes to the nutrient object. I also add on a variable for the total price of the recipe in USD and a variable for grams of protein per serving of food in a recipe.
 
-With this data I created contingency tables. One, looking at the association of vegan and vegetarian food, one lookng at sources where the recipies came from and how healthy they were, and lastly sources of where the recipies came from and weather or not they wre expensive -- expensive meaning that the price was higher than the 75% percentile of the data. I also create a couple of boxplots, scatter plots, and have a regression like overlaying a scatter plot.
+With this data I created contingency tables. One, looking at the association of vegan and vegetarian food, one lookng at sources where the recipes came from and how healthy they were, and lastly sources of where the recipes came from and weather or not they wre expensive -- expensive meaning that the price was higher than the 75% percentile of the data. I also create a couple of boxplots, scatter plots, and have a regression like overlaying a scatter plot.
 
 Every time we met, we would explain to each other what the other person had done and continue to deligate tasks. One way we got through not having to reconcile program merge diffrences too much was to comminucate when we were going to pull, commit, and push. Suyog had a sub repo he was working on and would monitor the main repo gor my commits and deal with the merging conflicts as they came in. We did this often in small sections, so I thought that this was very helpful. 
 
@@ -87,7 +87,6 @@ In summary, the process of our project is as follows:
 > - Added few new vars from ones we had  
 > - Added summary stats like a five number summary on protein content (g) ...  
 > - Plotting: bar, histogram, boxplot, scatterplot overlay, own scatter plot, scattter plot with regression over lay (mostly looking at protein content in vegan and vegatarian food)  
-> - Some interesting findings, there are recipes that have higher protein content than even non vegetarian reipes... makes sense eggs high protein (especially egg whites)  
 > - During this entire process we had to communicate and pull, commit, and push as necessary
 
 
