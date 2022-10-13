@@ -1,59 +1,101 @@
-#Poject 2
-## Group 2C
+## ST558 - Project 2  
+### Group 2C
 
-> Project 2 Blog Post Link: 
-> https://magarittenguyen.github.io/2022/10/12/STT558-project2-group2c-blog-post.html
-
-> Main Page for Blog Link
-> https://magarittenguyen.github.io/
-
-> Vingette Link
-> https://pages.github.ncsu.edu/sdharma2/ST558_Project_2_C/
-
-
-> Project GitHub Repo Link:
-> https://github.ncsu.edu/sdharma2/ST558_Project_2_C
-
-> HTML link / file of the Vignette 
-[HTML Link](https://magarittenguyen.github.io/README.html)
-
-
-
-## ST558 - My Second Blog Post  
 <!--
 Overview
 
-This assignment is to create a blog post using your github blog.  See below for the blog post prompt. Assesses LO 1.3 and others.
+This project is to create a vignette for reading in data from an API.  Assesses many LOs (emphasis on 2.3, 2.4, 3.2, 3.4, 4.2, 4.5, 5.4, 6.1, 6.5, and 6.6)
 Completion time
 
-The estimated time to complete this assignment is 20-40 minutes.
+The estimated time to complete this assignment is 12-20 hours.
+Instructions
+
+   - The instructions can be found in the attached PDF document.
+   - You must keep your github repo private until the due date.
+   - Submit the URL for the rendered blog post you make.
+
+Groups
+Group memberships. If you need this to be more accessible, let me know!
+Suyog & Magaritte
+-->
+
+<!--
+Submission
+Once your group has completed their vignette, each group member should write a brief blog post on their
+own github.io blog site. The blog post should:
+• explain what you did in the project and any interesting findings
+• reflect on the process you went through for this project. Discuss things like:
+– what was the most difficult part of the logic and programming for you?
+– what would you do differently in approaching a similar project in the future?
+• provide a link to the rendered github pages repo and the regular repo (non-github pages
+site) as well!
+The URL to this (rendered) blog post is what each individual will submit at the project assignment link.
 -->
 
 ### Instructions  
-#### Write a blog post to respond to the prompt below:
+#### Once your group has completed their vignette, each group member should write a brief blog post on their
+#### own github.io blog site.
 
-#### You've just completed your first project for the course - hooray!  Write a blog post reflecting on your project (what was the purpose of the project, what did you learn, what you would do differently, etc.).  You should upload your final document from project 1 and link to it as well. Your blog post can be written in a conversational tone or more formally (however you want to represent yourself).  There is no word count or anything like that, just make sure you answer the prompts above to receive full credit.
+The blog post should:  
+• explain what you did in the project and any interesting findings  
+• reflect on the process you went through for this project. Discuss things like:  
+
+  > – what was the most difficult part of the logic and programming for you?  
    
-.: *what was the purpose of the project* :.
+  > – what would you do differently in approaching a similar project in the future?  
+      
+   
+.: *Project Purpose, Tasks, and Interesting Findings* :.
 
-Hooray! We finally finished our first project in the course and I didn't die too bad. 
+Hooray! Another Project in the books and I still didn't die too bad. This is probably because I had someone to share the burden of dying with. Woo.
 
-For our first project in ST558 - Data Science for Statisticians, we are asked to work through the Project 1 instructions provided and create custom functions that will manipulate, process, and combine data sets that come in the .csv format (via a url link). From there, we will create a generic function that will automatically plot and return data based on different input choices we decide to enter into the parameters of our generic function(s). Our report is written up in an R Markdown file that will output an .html page. We also had to write a narrative in order to show that we fully understood each step carried out and assess many Learning Objectives from Topic 1 that we have learned.
+For our second project in ST558 - Data Science for Statisticians, we are asked to work through the Project 2 instructions provided and create a vingette that explains how to contact an API, from a selection, using functions that we have created to query, parse, and return well-structured data. We then use our functions to obtain data from a particular API (Spoonacular Food and Recipe API) in order to do some exploratory data analysis. 
 
-In summary, I think the purpose of this project was to get us to do the following:
+Our report is written up in an R Markdown file that is linked with the GitHub repositiry, that will render a GitHub Document. We also had to write a narrative in order to show that we fully understood each step carried out and assess many Learning Objectives from Topic 1 and Topic 2 that we have learned.
 
-> - reinforce how to set up an HTML R Markdown file, YAML header, table of contents, etc. 
-> - read in .csv files via URL links
-> - write out syntax that we understand in a straight forward way for each step of the project, while reinforcing `tidyverse` functions and conditionals
-> - wrap those steps in small custom functions
-> - nest those small custom funcitons into one single funciton 
-> - learn how to read and combine datasets; two at a time and apply that to many datasets (4 max)
-> - learn about how to plot from the directions
-> - create plotting functions that we can use for many different inputs
-> - keeping in mind that we always have default values for our functions if we chose not to sepcify an input
-> - show us how to create custom functions little by little
-> - challenge us with an excersise that takes things we learned and apply them step by step to create a custom function 
-> - small steps leading to a bigger task
+This project was done in pairs and my partner was Suyog Shekhar Dharmadhikari. We had to collaborate via a Github repository. For this project I think that both Suyog and I did a good job collaborating, deligating, and making time to work through challenges. We made sure to reach out early on and kept in touch as we worked on our respective parts of the project. We reached out to each other befire Fall break via e-mail to initiate a conversation and schedule times to meet just to make a fisrt pass at the project. We then set up calls and video chats periodically to deligate and create a game plan. We texted often. Since he is more familiar with GitHub as a Masters Computer Science student, he set up the repo, walked me through what he had done, and help me link GitHub and RStudio - reinforcing what we have seen in lecture.
+
+While we was away for fall break, I was able to set up create the render file and get started on the YAML header and code chunks for the project. I started by creating a API key for the Spoonacular API and looking at all the different types of queries we could have in our function. I worked on the function `my_Spoonacular_API` and got it to a point where I would explain to Suyog what I had done and let him include modifications, like more parameters (diet, min and max protein), to it. I also made sure that there was a return message if a user were to define a cuisine type that was not listed in the Spoonacular API that prompted them what types of things they could enter. 
+
+Once we had our first function, I called it twice and saved the object. While testing I noticed that for the keyword "fruit", the most recpies returned was for the Aerican cuisine. So, I decided to use this for my exploratory data analysis (EDA). I forgot to mention that our function also has an option to append nutrient data to it. But, to access more nutrient info, I had to index a list of list in a couple more levels. 
+
+I created a new object called nutrients that looked at calories, carbs, protein, and fat. I go on to append a five number summary of protien (g) content in the recipies to the nutrient object. I also add on a variable for the total price of the recipie in USD and a variable for grams of protein per serving of food in a recipe.
+
+With this data I created contingency tables. One, looking at the association of vegan and vegetarian food, one lookng at sources where the recipies came from and how healthy they were, and lastly sources of where the recipies came from and weather or not they wre expensive -- expensive meaning that the price was higher than the 75% percentile of the data. I also create a couple of boxplots, scatter plots, and have a regression like overlaying a scatter plot.
+
+We spent time apart and together writing our narrative and proof reading it for a couple hours.
+
+In summary, the process of our project is as follows:
+
+> - Built custom functions to interact with some of the Spoonacular Food and Recipe API endpoints like ComplexSearch and findByNutrients
+> - Retrieved some of the data based on different user modifications
+> - Did exploratory data analysis (EDA):
+>> - Using contingency tables
+>> - Numerical summaries like mean, median, min, max, standard standard deviaiton
+>> - Data visualization methods like plotting -- bar plot, box plot, histogram, scatter plot, scatter plots with linear models overlayed. 
+
+Some interesting findings for our specific vingette examples:
+
+> Some vegetarian recipes are vegan as well
+> Most of the unhealthy food recipes are from the **Foodista** source
+> Recipes suggested by **Foodista** has the **maximum number** of **expensive** recipes, but also suggests **maximum number** of **inexpensive** recipes
+> **Cinnamon French Toast Sticks** has a higher protein content than a non vegetarian meals like the **Turkey Burgers with Slaw**, even though it is a vegetarian recipe. This is surprising, but also makes sense due to the high protein content in eggs
+> It can be seen that the number of **American** cuisine recipes are much **higher** in comparison to **Chinese** and **Latin American** cuisines for our vignette for the recipes containing fruit.
+> The protein content in non vegetarian meals in generally much greater than the protein content in vegetarian meals as expected
+> When broken down by serving, the protein content in vegetarian meals (for some) have a higher protein content then the non vegetarian meals
+> There is **no real pattern** to be observed between carbohydrates and protein
+> The regression line basically has **No change** in protein (g) at any amount of carbohydrates, confirming out plot that is only a scattet plot between protein and carbohydrates
+
+.: *Project Process: Difficulties in Logic & Programming, Future Approach On Similar Project* :.
+
+Some things that I 
+
+
+
+
+
+
+
 
  .: *what did you learn* :.
  
@@ -63,20 +105,77 @@ What I learned through this entire project is that programming is frustrating - 
 
 Some things that I would do differntly is spend more time on my typography choices(?). I'm not sure I realy did those correctly, but I pretty much put the tick symbols around anything I thought was important coding wise. I also would have tried to write the narrative and edit my comments as I was completing the project because going back over it would have just been proof reading and checking spacing once - rather than having to go back many more times making sure I understood what I was doing again after the fact and losing my train of thought. Lastly, I always feel like I should start sooner rather than later, even though I did start pretty early on this project.
 
-<!--
-Your blog post can be written in a conversational tone or more formally (however you want to represent yourself).  There is no word count or anything like that, just make sure you answer the prompts above to receive full credit. 
-Submit the URL for your github blog in the text box. 
-
-Notes from Discussion Board:
-
-After chatting with a few people, I should give some more guidance! You can just upload your .html file into your main repo area (the part that has the _posts folder in it). From there you can take the file name (say project1.html) and append that to your github.io site. For instance, https://jbpost2.github.io/project1.html
-
-That provides a link to the project html page!
-
-video that helped me with adding link to project:
-https://www.youtube.com/watch?v=WdH7W2_W2Cc
--->
-
-[Link That Takes You to My Project 1](https://magarittenguyen.github.io/ST558_Project1_Magaritte_Nguyen_HTML.html)
 
 
+
+
+##########################################
+##########################################
+##########################################
+
+
+
+Once your group has completed their vignette, each group member should write a brief blog post on their own github.io blog site. The blog post should:
+  
+  - explain what you did in the project and any interesting findings 
+
+For this project, we are to create a vingetter (exaplin what vingette is) that we can share and render via GitHub. We had to collaorate with a member of our ST558 class and use ...
+
+> set up github account
+> access to second member
+> set up and sync to RStudio in compauter
+> create read.md file for rendering
+> Rmarkdown page, and render file seperate
+> call an API, we chose food
+> figuering out how to aceess and parse the data, HW4 (API) and HW5 (plotting) useful
+> one we could get it to work for one scenario, e crated a fucntion
+> called for atleast two situations - 6 endpoints - we chose (cuisine, recipei, ingredient, #of obs that returned, deit, min protein, max protien)
+> one we ran 2 senarios we started to do EDA
+> contingency talbes (remeber no meaning is intended beacuse... we didnt kow what we were searching for but just farting around in the dark...)
+> added ew vars from ones we had, 
+> summary stats...
+> plotting, bar, histogram, boxplot, scatterplot overlay, own scatter lot, scallter with regression over lay, -- mostly looking at protein content in vegan and vegatarian food...
+> som einteresting findings, there are reipes that have higher protein content than even non vegetarian reipes... makes sense eggs high protein (especially egg whites)
+
+  
+  - reflect on the process you went through for this project. Discuss things like: (above)
+  
+    + what was the most difficult part of the logic and programming for you? 
+    
+> trying to access the api (getting a key)
+> how to enter the keywords in so that the url will recognize what we want, had to look at the documentaiotn and there was a lot of trial and error
+> also trying to grab / index thins that i wanted. 
+> ran into an issue with words that were seperated by a space retuning 0
+> thought it was clever to add my note that said text needed to be entered that matched the possible list of cuisines... 
+> (tried entering more than one cuisine but ran out of time) partner did it but it is seperate, wondering if we should keep the function and name it somehting else or if it is redundant... 
+
+    + what would you do differently in approaching a similar project in the future?  
+    
+> try to start earlier, it was over fall break and some plans that had been made it difficult to meet up and work together
+> most of the work was meeting, delegating and working on our own, no sharing screens as much, like we took sections, it wasnt like we worked on all the sections together by sharing screens/ logc. but we did wal keach other through what we did the next day and expalined our logic. not sure which approach is best... 
+> I wasnt sure how to set up the repo stuff but my partner has more experisnce using is becaues hes going for a master in computer scinece and was well versed. that was great to have someone with experince with this. my only exposure has been this clas... 
+
+I think we made a good team. we tried to meet before HW6 was due, the exam, and over fall break. We were good at reaching out and starting a conversation. 
+
+I always wish i have more time. but i think we did a good job with the time we had.
+
+
+    
+ 
+  
+
+
+.: *Links:* :.
+
+[Main Page of Blog Posts Link](https://magarittenguyen.github.io/)
+ 
+[Project 2 Blog Post Link](https://magarittenguyen.github.io/2022/10/12/STT558-project2-group2c-blog-post.html)
+
+[Vingette Link](https://pages.github.ncsu.edu/sdharma2/ST558_Project_2_C/)
+
+[Project 2 GitHub Repo Link](https://github.ncsu.edu/sdharma2/ST558_Project_2_C)
+
+[HTML Link of Vignette](https://magarittenguyen.github.io/README.html)
+
+
+*** The URL to this (rendered) blog post is what each individual will submit at the project assignment link.
