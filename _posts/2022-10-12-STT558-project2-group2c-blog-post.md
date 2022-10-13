@@ -65,39 +65,39 @@ With this data I created contingency tables. One, looking at the association of 
 
 We spent time apart and together writing our narrative and proof reading it for a couple hours. We also tried to draw conclusions the best we could from out EDA.
 
-In summary, the process of our project is as follows:
+In summary, the process of our project is as follows:  
 
-> - Set up GitHub Repo
-> - Give access to second member 
-> - Set up and sync to RStudio in compauter to GitHub Repo
-> - Create README.md file for rendering
-> - Know that the RMarkdown page and the render file are seperate files
-> - Call an API, we chose the Spoonacular Food and Recipe API
-> - Figuering out how to aceess and parse the data -- HW4 (API) and HW5 (plotting) were useful
-> - Once we could get it to work for one scenario, we created a function
-> - Built functions to interact with some of the Spoonacular Food and Recipe API endpoints like ComplexSearch and findByNutrients
-> - Retrieved some of the data based on different user modifications
-> - Called function for atleast two situations - 6 endpoints - we chose (cuisine, recipe, ingredient, number of obs that could be returned (max 100), diet, min protein, max protien)
-> - Once we ran 2 senarios we started to do EDA
-> - Contingency tables (remeber no meaning is intended beacuse... we didnt know what we were searching for, but just kind of "farting around in the dark...")
-> - Added few new vars from ones we had
-> - Added summary stats like a five number summary on protein content (g) ...
-> - Plotting: bar, histogram, boxplot, scatterplot overlay, own scatter plot, scattter plot with regression over lay (mostly looking at protein content in vegan and vegatarian food)
-> - Some interesting findings, there are recipes that have higher protein content than even non vegetarian reipes... makes sense eggs high protein (especially egg whites)
+> - Set up GitHub Repo  
+> - Give access to second member   
+> - Set up and sync to RStudio in compauter to GitHub Repo  
+> - Create README.md file for rendering  
+> - Know that the RMarkdown page and the render file are seperate files  
+> - Call an API, we chose the Spoonacular Food and Recipe API  
+> - Figuering out how to aceess and parse the data -- HW4 (API) and HW5 (plotting) were useful  
+> - Once we could get it to work for one scenario, we created a function  
+> - Built functions to interact with some of the Spoonacular Food and Recipe API endpoints like ComplexSearch and findByNutrients  
+> - Retrieved some of the data based on different user modifications  
+> - Called function for atleast two situations - 6 endpoints - we chose (cuisine, recipe, ingredient, number of obs that could be returned (max 100), diet, min protein, max protien)  
+> - Once we ran 2 senarios we started to do EDA  
+> - Contingency tables (remeber no meaning is intended beacuse... we didnt know what we were searching for, but just kind of "farting around in the dark...")  
+> - Added few new vars from ones we had  
+> - Added summary stats like a five number summary on protein content (g) ...  
+> - Plotting: bar, histogram, boxplot, scatterplot overlay, own scatter plot, scattter plot with regression over lay (mostly looking at protein content in vegan and vegatarian food)  
+> - Some interesting findings, there are recipes that have higher protein content than even non vegetarian reipes... makes sense eggs high protein (especially egg whites)  
 
 
-Some interesting findings for our specific vingette examples:
+Some interesting findings for our specific vingette examples:  
 
-> Some vegetarian recipes are vegan as well
-> Most of the unhealthy food recipes are from the **Foodista** source
-> Recipes suggested by **Foodista** has the **maximum number** of **expensive** recipes, but also suggests **maximum number** of **inexpensive** recipes
-> **Cinnamon French Toast Sticks** has a higher protein content than a non vegetarian meals like the **Turkey Burgers with Slaw**, even though it is a vegetarian recipe. This is surprising, but also makes sense due to the high protein content in eggs
-> It can be seen that the number of **American** cuisine recipes are much **higher** in comparison to **Chinese** and **Latin American** cuisines for our vignette for the recipes containing fruit.
-> The protein content in non vegetarian meals in generally much greater than the protein content in vegetarian meals as expected
-> When broken down by serving, the protein content in vegetarian meals (for some) have a higher protein content then the non vegetarian meals
-> There is **no real pattern** to be observed between carbohydrates and protein
-> The regression line basically has **No change** in protein (g) at any amount of carbohydrates, confirming out plot that is only a scattet plot between protein and carbohydrates
-
+> - Some vegetarian recipes are vegan as well  
+> - Most of the unhealthy food recipes are from the **Foodista** source  
+> - Recipes suggested by **Foodista** has the **maximum number** of **expensive** recipes, but also suggests **maximum number** of **inexpensive** recipes  
+> - **Cinnamon French Toast Sticks** has a higher protein content than a non vegetarian meals like the **Turkey Burgers with Slaw**, even though it is a vegetarian recipe. This is surprising, but also makes sense due to the high protein content in eggs  
+> - It can be seen that the number of **American** cuisine recipes are much **higher** in comparison to **Chinese** and **Latin American** cuisines for our vignette for the recipes containing fruit.  
+> - The protein content in non vegetarian meals in generally much greater than the protein content in vegetarian meals as expected  
+> - When broken down by serving, the protein content in vegetarian meals (for some) have a higher protein content then the non vegetarian meals  
+> - There is **no real pattern** to be observed between carbohydrates and protein  
+> - The regression line basically has **No change** in protein (g) at any amount of carbohydrates, confirming out plot that is only a scattet plot between protein and carbohydrates  
+ 
 
 .: *Project Process: Difficulties in Logic & Programming, Future Approach On Similar Project* :.
 
