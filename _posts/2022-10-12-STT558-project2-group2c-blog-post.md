@@ -63,16 +63,28 @@ I created a new object called nutrients that looked at calories, carbs, protein,
 
 With this data I created contingency tables. One, looking at the association of vegan and vegetarian food, one lookng at sources where the recipies came from and how healthy they were, and lastly sources of where the recipies came from and weather or not they wre expensive -- expensive meaning that the price was higher than the 75% percentile of the data. I also create a couple of boxplots, scatter plots, and have a regression like overlaying a scatter plot.
 
-We spent time apart and together writing our narrative and proof reading it for a couple hours.
+We spent time apart and together writing our narrative and proof reading it for a couple hours. We also tried to draw conclusions the best we could from out EDA.
 
 In summary, the process of our project is as follows:
 
-> - Built custom functions to interact with some of the Spoonacular Food and Recipe API endpoints like ComplexSearch and findByNutrients
+> - Set up GitHub Repo
+> - Give access to second member 
+> - Set up and sync to RStudio in compauter to GitHub Repo
+> - Create README.md file for rendering
+> - Know that the RMarkdown page and the render file are seperate files
+> - Call an API, we chose the Spoonacular Food and Recipe API
+> - Figuering out how to aceess and parse the data -- HW4 (API) and HW5 (plotting) were useful
+> - Once we could get it to work for one scenario, we created a function
+> - Built functions to interact with some of the Spoonacular Food and Recipe API endpoints like ComplexSearch and findByNutrients
 > - Retrieved some of the data based on different user modifications
-> - Did exploratory data analysis (EDA):
->> - Using contingency tables
->> - Numerical summaries like mean, median, min, max, standard standard deviaiton
->> - Data visualization methods like plotting -- bar plot, box plot, histogram, scatter plot, scatter plots with linear models overlayed. 
+> - Called function for atleast two situations - 6 endpoints - we chose (cuisine, recipe, ingredient, number of obs that could be returned (max 100), diet, min protein, max protien)
+> - Once we ran 2 senarios we started to do EDA
+> - Contingency tables (remeber no meaning is intended beacuse... we didnt know what we were searching for, but just kind of "farting around in the dark...")
+> - Added few new vars from ones we had
+> - Added summary stats like a five number summary on protein content (g) ...
+> - Plotting: bar, histogram, boxplot, scatterplot overlay, own scatter plot, scattter plot with regression over lay (mostly looking at protein content in vegan and vegatarian food)
+> - Some interesting findings, there are recipes that have higher protein content than even non vegetarian reipes... makes sense eggs high protein (especially egg whites)
+
 
 Some interesting findings for our specific vingette examples:
 
@@ -86,19 +98,11 @@ Some interesting findings for our specific vingette examples:
 > There is **no real pattern** to be observed between carbohydrates and protein
 > The regression line basically has **No change** in protein (g) at any amount of carbohydrates, confirming out plot that is only a scattet plot between protein and carbohydrates
 
+
 .: *Project Process: Difficulties in Logic & Programming, Future Approach On Similar Project* :.
 
 Some things that I 
 
-
-
-
-
-
-
-
- .: *what did you learn* :.
- 
 What I learned through this entire project is that programming is frustrating - especially if you're working on one screen. Being organized in you program is important to -- like keeping parethases in check, because it can get very confusing. I had to label my closing parenthases so that I wouldn't get lost. I copied all the directions over first and then commented as much as I could as I completed the project. This helped a lot because I didn't have to flip back and forth between applicaitons. I reinforced what functions go to which tidyverse toolkit/package because that was a bit confusing at first, but I think that comes with practice/exposue. I got to learn funcitons more carefully just by looking up how to use them and explaining with the narrative. I have some SAS knowledge, so it was interesting to see how certain things are programmed in R. I also didn't realize you could reference a variable in a dataset without merging/combining it first. It was the step where we had to pick the x amount of states from the manipulated dataset in order to pick those states in the orgional dataset and plot those observations. I also learned how to use nested ifelse() functions. That part was very tedious to me.
 
 .: *what you would do differently, etc.* :.
@@ -114,28 +118,6 @@ Some things that I would do differntly is spend more time on my typography choic
 ##########################################
 
 
-
-Once your group has completed their vignette, each group member should write a brief blog post on their own github.io blog site. The blog post should:
-  
-  - explain what you did in the project and any interesting findings 
-
-For this project, we are to create a vingetter (exaplin what vingette is) that we can share and render via GitHub. We had to collaorate with a member of our ST558 class and use ...
-
-> set up github account
-> access to second member
-> set up and sync to RStudio in compauter
-> create read.md file for rendering
-> Rmarkdown page, and render file seperate
-> call an API, we chose food
-> figuering out how to aceess and parse the data, HW4 (API) and HW5 (plotting) useful
-> one we could get it to work for one scenario, e crated a fucntion
-> called for atleast two situations - 6 endpoints - we chose (cuisine, recipei, ingredient, #of obs that returned, deit, min protein, max protien)
-> one we ran 2 senarios we started to do EDA
-> contingency talbes (remeber no meaning is intended beacuse... we didnt kow what we were searching for but just farting around in the dark...)
-> added ew vars from ones we had, 
-> summary stats...
-> plotting, bar, histogram, boxplot, scatterplot overlay, own scatter lot, scallter with regression over lay, -- mostly looking at protein content in vegan and vegatarian food...
-> som einteresting findings, there are reipes that have higher protein content than even non vegetarian reipes... makes sense eggs high protein (especially egg whites)
 
   
   - reflect on the process you went through for this project. Discuss things like: (above)
