@@ -14,6 +14,9 @@
 > Project GitHub Repo Link:
 > https://github.ncsu.edu/sdharma2/ST558_Project_2_C
 
+> HTML link / file of the Vignette 
+[HTML Link](https://magarittenguyen.github.io/README.html)
+
 
 
 ## ST558 - My Second Blog Post  
