@@ -33,12 +33,12 @@ The URL to this (rendered) blog post is what each individual will submit at the 
 -->
 
 ### Instructions  
-#### Once your group has completed their vignette, each group member should write a brief blog post on their
-#### own github.io blog site.
+#### Once your group has completed their vignette, each group member should write a brief blog post on their own github.io blog site.
 
-The blog post should:  
-• explain what you did in the project and any interesting findings  
-• reflect on the process you went through for this project. Discuss things like:  
+The blog post should:   
+
+• explain what you did in the project and any interesting findings   
+• reflect on the process you went through for this project. Discuss things like:    
 
   > – what was the most difficult part of the logic and programming for you?  
    
@@ -89,14 +89,14 @@ In summary, the process of our project is as follows:
 Some interesting findings for our specific vingette examples:  
 
 > - Some vegetarian recipes are vegan as well  
-> - Most of the unhealthy food recipes are from the **Foodista** source  
-> - Recipes suggested by **Foodista** has the **maximum number** of **expensive** recipes, but also suggests **maximum number** of **inexpensive** recipes  
-> - **Cinnamon French Toast Sticks** has a higher protein content than a non vegetarian meals like the **Turkey Burgers with Slaw**, even though it is a vegetarian recipe. This is surprising, but also makes sense due to the high protein content in eggs  
-> - It can be seen that the number of **American** cuisine recipes are much **higher** in comparison to **Chinese** and **Latin American** cuisines for our vignette for the recipes containing fruit.  
+> - Most of the unhealthy food recipes are from the *Foodista* source  
+> - Recipes suggested by *Foodista* has the maximum number of expensive recipes, but also suggests maximum number of inexpensive recipes  
+> - Cinnamon French Toast Sticks has a higher protein content than a non vegetarian meals like the Turkey Burgers with Slaw, even though it is a vegetarian recipe. This is surprising, but also makes sense due to the high protein content in eggs  
+> - It can be seen that the number of American cuisine recipes are much higher in comparison to Chinese and Latin American cuisines for our vignette for the recipes containing fruit.  
 > - The protein content in non vegetarian meals in generally much greater than the protein content in vegetarian meals as expected  
 > - When broken down by serving, the protein content in vegetarian meals (for some) have a higher protein content then the non vegetarian meals  
-> - There is **no real pattern** to be observed between carbohydrates and protein  
-> - The regression line basically has **No change** in protein (g) at any amount of carbohydrates, confirming out plot that is only a scattet plot between protein and carbohydrates  
+> - There is no real pattern to be observed between carbohydrates and protein  
+> - The regression line basically has no change in protein (g) at any amount of carbohydrates, confirming out plot that is only a scattet plot between protein and carbohydrates  
  
 
 .: *Project Process: Difficulties in Logic & Programming, Future Approach On Similar Project* :.
@@ -160,4 +160,4 @@ I always wish i have more time. but i think we did a good job with the time we h
 [HTML Link of Vignette](https://magarittenguyen.github.io/README.html)
 
 
-*** The URL to this (rendered) blog post is what each individual will submit at the project assignment link.
+Thank you!
