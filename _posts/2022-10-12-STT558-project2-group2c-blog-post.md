@@ -44,6 +44,8 @@ The blog post should:
    
   > – what would you do differently in approaching a similar project in the future?  
       
+________________________________________________________________________________________
+________________________________________________________________________________________
    
 .: *Project Purpose, Tasks, and Interesting Findings* :.
 
@@ -53,9 +55,9 @@ For our second project in ST558 - Data Science for Statisticians, we are asked t
 
 Our report is written up in an R Markdown file that is linked with the GitHub repositiry, that will render a GitHub Document. We also had to write a narrative in order to show that we fully understood each step carried out and assess many Learning Objectives from Topic 1 and Topic 2 that we have learned.
 
-This project was done in pairs and my partner was Suyog Shekhar Dharmadhikari. We had to collaborate via a Github repository. For this project I think that both Suyog and I did a good job collaborating, deligating, and making time to work through challenges. We made sure to reach out early on and kept in touch as we worked on our respective parts of the project. We reached out to each other befire Fall break via e-mail to initiate a conversation and schedule times to meet just to make a fisrt pass at the project. We then set up calls and video chats periodically to deligate and create a game plan. We texted often. Since he is more familiar with GitHub as a Masters Computer Science student, he set up the repo, walked me through what he had done, and help me link GitHub and RStudio - reinforcing what we have seen in lecture.
+This project was done in pairs and my partner was Suyog Shekhar Dharmadhikari. We had to collaborate via a Github repository. For this project I think that both Suyog and I did a good job collaborating, deligating, and making time to work through challenges. We made sure to reach out early on and kept in touch as we worked on our respective parts of the project. We reached out to each other before Fall break via e-mail to initiate a conversation and schedule times to meet just to make a fisrt pass at the project. We then set up calls and video chats periodically to deligate and create a game plan. We texted often. Since he is more familiar with GitHub as a Masters Computer Science student, he set up the repo, walked me through what he had done, and help me link GitHub and RStudio - reinforcing what we have seen in lecture.
 
-While we was away for fall break, I was able to set up create the render file and get started on the YAML header and code chunks for the project. I started by creating a API key for the Spoonacular API and looking at all the different types of queries we could have in our function. I worked on the function `my_Spoonacular_API` and got it to a point where I would explain to Suyog what I had done and let him include modifications, like more parameters (diet, min and max protein), to it. I also made sure that there was a return message if a user were to define a cuisine type that was not listed in the Spoonacular API that prompted them what types of things they could enter. 
+While he was away for fall break, I was able to set up create the render file and get started on the YAML header and code chunks for the project. I started by creating a API key for the Spoonacular API and looking at all the different types of queries we could have in our function. I worked on the function `my_Spoonacular_API` and got it to a point where I would explain to Suyog what I had done and let him include modifications, like more parameters (diet, min and max protein), to it. I also made sure that there was a return message if a user were to define a cuisine type that was not listed in the Spoonacular API that prompted them what types of things they could enter. 
 
 Once we had our first function, I called it twice and saved the object. While testing I noticed that for the keyword "fruit", the most recpies returned was for the Aerican cuisine. So, I decided to use this for my exploratory data analysis (EDA). I forgot to mention that our function also has an option to append nutrient data to it. But, to access more nutrient info, I had to index a list of list in a couple more levels. 
 
@@ -63,7 +65,9 @@ I created a new object called nutrients that looked at calories, carbs, protein,
 
 With this data I created contingency tables. One, looking at the association of vegan and vegetarian food, one lookng at sources where the recipies came from and how healthy they were, and lastly sources of where the recipies came from and weather or not they wre expensive -- expensive meaning that the price was higher than the 75% percentile of the data. I also create a couple of boxplots, scatter plots, and have a regression like overlaying a scatter plot.
 
-We spent time apart and together writing our narrative and proof reading it for a couple hours. We also tried to draw conclusions the best we could from out EDA.
+Every time we met, we would explain to each other what the other person had done and continue to deligate tasks. One way we got through not having to reconcile program merge diffrences too much was to comminucate when we were going to pull, commit, and push. Suyog had a sub repo he was working on and would monitor the main repo gor my commits and deal with the merging conflicts as they came in. We did this often in small sections, so I thought that this was very helpful. 
+
+We spent time apart and together writing our narrative and proof reading it for a couple hours on the day it was due. We also tried to draw conclusions the best we could from our EDA.
 
 In summary, the process of our project is as follows:  
 
@@ -84,6 +88,7 @@ In summary, the process of our project is as follows:
 > - Added summary stats like a five number summary on protein content (g) ...  
 > - Plotting: bar, histogram, boxplot, scatterplot overlay, own scatter plot, scattter plot with regression over lay (mostly looking at protein content in vegan and vegatarian food)  
 > - Some interesting findings, there are recipes that have higher protein content than even non vegetarian reipes... makes sense eggs high protein (especially egg whites)  
+> - During this entire process we had to communicate and pull, commit, and push as necessary
 
 
 Some interesting findings for our specific vingette examples:  
@@ -101,38 +106,21 @@ Some interesting findings for our specific vingette examples:
 
 .: *Project Process: Difficulties in Logic & Programming, Future Approach On Similar Project* :.
 
+.: what you would do differently, etc. :.
+
+> trying to access the api (getting a key)
+> how to enter the keywords in so that the url will recognize what we want, had to look at the documentaiotn and there was a lot of trial and error
+> also trying to grab / index thins that i wanted. 
+> ran into an issue with words that were seperated by a space retuning 0
+> thought it was clever to add my note that said text needed to be entered that matched the possible list of cuisines... 
+> (tried entering more than one cuisine but ran out of time) partner did it but it is seperate, wondering if we should keep the function and name it somehting else or if it is redundant...
+
 Some things that I 
 
 What I learned through this entire project is that programming is frustrating - especially if you're working on one screen. Being organized in you program is important to -- like keeping parethases in check, because it can get very confusing. I had to label my closing parenthases so that I wouldn't get lost. I copied all the directions over first and then commented as much as I could as I completed the project. This helped a lot because I didn't have to flip back and forth between applicaitons. I reinforced what functions go to which tidyverse toolkit/package because that was a bit confusing at first, but I think that comes with practice/exposue. I got to learn funcitons more carefully just by looking up how to use them and explaining with the narrative. I have some SAS knowledge, so it was interesting to see how certain things are programmed in R. I also didn't realize you could reference a variable in a dataset without merging/combining it first. It was the step where we had to pick the x amount of states from the manipulated dataset in order to pick those states in the orgional dataset and plot those observations. I also learned how to use nested ifelse() functions. That part was very tedious to me.
 
 .: *what you would do differently, etc.* :.
 
-Some things that I would do differntly is spend more time on my typography choices(?). I'm not sure I realy did those correctly, but I pretty much put the tick symbols around anything I thought was important coding wise. I also would have tried to write the narrative and edit my comments as I was completing the project because going back over it would have just been proof reading and checking spacing once - rather than having to go back many more times making sure I understood what I was doing again after the fact and losing my train of thought. Lastly, I always feel like I should start sooner rather than later, even though I did start pretty early on this project.
-
-
-
-
-
-##########################################
-##########################################
-##########################################
-
-
-
-  
-  - reflect on the process you went through for this project. Discuss things like: (above)
-  
-    + what was the most difficult part of the logic and programming for you? 
-    
-> trying to access the api (getting a key)
-> how to enter the keywords in so that the url will recognize what we want, had to look at the documentaiotn and there was a lot of trial and error
-> also trying to grab / index thins that i wanted. 
-> ran into an issue with words that were seperated by a space retuning 0
-> thought it was clever to add my note that said text needed to be entered that matched the possible list of cuisines... 
-> (tried entering more than one cuisine but ran out of time) partner did it but it is seperate, wondering if we should keep the function and name it somehting else or if it is redundant... 
-
-    + what would you do differently in approaching a similar project in the future?  
-    
 > try to start earlier, it was over fall break and some plans that had been made it difficult to meet up and work together
 > most of the work was meeting, delegating and working on our own, no sharing screens as much, like we took sections, it wasnt like we worked on all the sections together by sharing screens/ logc. but we did wal keach other through what we did the next day and expalined our logic. not sure which approach is best... 
 > I wasnt sure how to set up the repo stuff but my partner has more experisnce using is becaues hes going for a master in computer scinece and was well versed. that was great to have someone with experince with this. my only exposure has been this clas... 
@@ -141,11 +129,10 @@ I think we made a good team. we tried to meet before HW6 was due, the exam, and 
 
 I always wish i have more time. but i think we did a good job with the time we had.
 
+Some things that I would do differntly is spend more time on my typography choices(?). I'm not sure I realy did those correctly, but I pretty much put the tick symbols around anything I thought was important coding wise. I also would have tried to write the narrative and edit my comments as I was completing the project because going back over it would have just been proof reading and checking spacing once - rather than having to go back many more times making sure I understood what I was doing again after the fact and losing my train of thought. Lastly, I always feel like I should start sooner rather than later, even though I did start pretty early on this project.
 
-    
- 
-  
-
+________________________________________________________________________________________
+________________________________________________________________________________________
 
 .: *Links:* :.
 
