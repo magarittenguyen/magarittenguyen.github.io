@@ -1,6 +1,21 @@
 #Poject 2
 ## Group 2C
 
+> Project 2 Blog Post Link: 
+> https://magarittenguyen.github.io/2022/10/12/STT558-project2-group2c-blog-post.html
+
+> Main Page for Blog Link
+> https://magarittenguyen.github.io/
+
+> Vingette Link
+> https://pages.github.ncsu.edu/sdharma2/ST558_Project_2_C/
+
+
+> Project GitHub Repo Link:
+> https://github.ncsu.edu/sdharma2/ST558_Project_2_C
+
+
+
 ## ST558 - My Second Blog Post  
 <!--
 Overview
