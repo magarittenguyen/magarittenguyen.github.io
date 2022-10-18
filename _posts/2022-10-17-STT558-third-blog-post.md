@@ -1,7 +1,6 @@
 ## ST558 - My Third Blog Post  
 
 <!--
-
 Overview
 
 This assignment is to create a blog post using your github blog.  See below for the blog post prompt. Assesses LO 1.3 and others.
@@ -9,7 +8,6 @@ Completion time
 
 The estimated time to complete this assignment is 20-40 minutes.
 Instructions
-
 -->
 
 ### Instructions  
@@ -24,21 +22,24 @@ Instructions
 
 For your blog post, write up the strategy you use for EDA. What is your overall goal when doing an EDA? What methods do you think are important? What things do you try to look for? 
 
+Exploratory Data Analysis (EDA) was promoted by American mathematician John Tukey since 1970. It is an critical tool/approach/philosophy, used by data scientists, for data analysis and is primarily used to investigates data sets by using many differnt techniques (usually via statistical graphics and other data visualization methods) to maximize insight on / see what can be revealed about a given data set. This can be done with or without a formal statistical model and is meant to summarize the main characteristics of the given data set by providing a better understanding of the missingness behind the data, the variables and the relationships/patterns/correlation between/within them before making any assumptions, and detect outliers in the data set. 
+
+EDA helps determine how best to manipulate data sources to get the answers you need, making it easier for data scientists to discover significant patterns, outliers, test a hypothesis, or check assumptions.
+
+EDA is primarily for seeing what the data can tell us beyond the formal modeling and thereby contrasts traditional hypothesis testing. 
+
+This technique continues to be a widely used method in the data discovery process today.
+
+EDA’s are also essential because by encouraging statisticians to explore the data, they can possibly formulate hypotheses for why these patterns occur, which could lead to further/new data collection and experiments.  
 
 
-Exploratory Data Analysis (EDA) was promoted by American mathematician John Tukey since 1970. It is an approach/philosophy, used by data scientists, for data analysis and is primarily used to investigates data sets by using many differnt techniques (usually via statistical graphics and other data visualization methods) to maximize insight on / see what can be revealed about a given data set with or without a formal statistical model by summarizing the main characteristics of the given data set and providing a better understanding of data set variables and the relationships between them before making any assumptions. It helps determine how best to manipulate data sources to get the answers you need, making it easier for data scientists to discover patterns, spot anomalies, test a hypothesis, or check assumptions.
-
-EDA is primarily for seeing what the data can tell us beyond the formal modeling and thereby contrasts traditional hypothesis testing. adn this technique continues to be a widely used method in the data discovery process today.
-
-
-
-
-EDA can be a very large area of focus
+ been handed a dataset and then been asked to describe it
+ 
+EDA can be a very large area of focus.
 
 It can also help determine if the statistical techniques you are considering for data analysis are appropriate.
 
- It can help identify obvious errors, as well as better understand patterns within the data, detect outliers or anomalous events, find interesting relations among the variables.
-
+It can help identify obvious errors. 
 
 
 
@@ -46,22 +47,24 @@ A strategy I would use for EDA after reading the selected artilces provided is a
 
 .: *What is your overall goal when doing an EDA?* :.
 
-I think that the over all goal when doing an EDA is:
-    uncover underlying structure / summarise their main characteristics;
-    extract important variables;
-    detect outliers and anomalies;
-    test underlying assumptions;
-    develop parsimonious models; and
-    determine optimal factor settings.
+I think that the overall goal when doing an EDA is:
 
 
-By encouraging statisticians to explore the data, they can possibly formulate hypotheses, which could lead to further/new data collection and experiments.  
+> enable unexpected discoveries in the data (done)
+> suggest hypotheses about the causes of observed phenomena (might answer some of those crucial business questions // the results are invaluable for answering important business questions)
+> assess assumptions on which statistical inference will be based
+> support the selection of appropriate statistical tools and techniques
+> provide a basis for further data collection through surveys or experiments
+    
+    
+ 
+
+
+
 
 
 
    
-
-
 
 
 
@@ -79,13 +82,7 @@ By encouraging statisticians to explore the data, they can possibly formulate hy
 > 
 > tools R and Python... 
 
-The objectives of EDA are to:
 
-    Enable unexpected discoveries in the data
-    Suggest hypotheses about the causes of observed phenomena
-    Assess assumptions on which statistical inference will be based
-    Support the selection of appropriate statistical tools and techniques
-    Provide a basis for further data collection through surveys or experiments[7]
 
  
 
@@ -94,14 +91,36 @@ The objectives of EDA are to:
 
 
 
-By performing an EDA, you might answer some of those crucial business questions we alluded to earlier.
-The reality is that exploratory data analysis (EDA) is a critical tool in every data scientist’s kit, and the results are invaluable for answering important business questions
- been handed a dataset and then been asked to describe it
- Simply put, an EDA refers to performing visualizations and identifying significant patterns, such as correlated features, missing data, and outliers. EDA’s are also essential for providing hypotheses for why these patterns occur. It most likely won’t appear in your data product, data highlight, or dashboard, but it will help to inform all of these things.
+
+
+
 
 .: *What methods do you think are important?* :.
 
 Some methods that I think are important when carrying out an EDA are:
+
+important to take notes thorughout this process.
+
+Before You Start
+
+
+1. Check For Missing Data
+2. Provide Basic Descriptions of Your Sample and Features
+3. Identify The Shape of Your Data
+4. Identify Significant Correlations
+5. Spot Outliers in the Dataset
+
+
+What’s Next?
+
+
+
+   uncover underlying structure / summarise their main characteristics;
+    extract important variables;
+    detect outliers and anomalies;
+    test underlying assumptions;
+    develop parsimonious models; and
+    determine optimal factor settings.
 
 
 > Before you start exploring the data, you should try to understand the data at a high level.  Speak to leadership and product to try to gain as much context as possible to help inform where to focus your efforts. Are you interested in performing a prediction task? Is the task purely for exploratory purposes? Depending on the intended outcome, you might point out very different things in your EDA.
@@ -157,15 +176,7 @@ Here a few things that PMFs and PDFs can tell you about your data:
     5 Outliers can dampen your fun only if you don’t know about them. Make known the unknowns!
 
 
-important to take notes thorughout this process.
 
-Before You Start
-1. Check For Missing Data
-2. Provide Basic Descriptions of Your Sample and Features
-3. Identify The Shape of Your Data
-4. Identify Significant Correlations
-5. Spot Outliers in the Dataset
-What’s Next?
 
 .: *What things do you try to look for?* :.
 
