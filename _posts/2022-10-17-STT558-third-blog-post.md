@@ -22,32 +22,26 @@ Instructions
 
 For your blog post, write up the strategy you use for EDA. What is your overall goal when doing an EDA? What methods do you think are important? What things do you try to look for? 
 
-Exploratory Data Analysis (EDA) was promoted by American mathematician John Tukey since 1970. It is an critical tool/approach/philosophy, used by data scientists, for data analysis and is primarily used to investigates data sets by using many differnt techniques (usually via statistical graphics and other data visualization methods) to maximize insight on / see what can be revealed about a given data set. This can be done with or without a formal statistical model and is meant to summarize the main characteristics of the given data set by providing a better understanding of the missingness behind the data, the variables and the relationships/patterns/correlation between/within them before making any assumptions, and detect outliers in the data set. 
-
-EDA helps determine how best to manipulate data sources to get the answers you need, making it easier for data scientists to discover significant patterns, outliers, test a hypothesis, or check assumptions.
-
-EDA is primarily for seeing what the data can tell us beyond the formal modeling and thereby contrasts traditional hypothesis testing. 
-
-This technique continues to be a widely used method in the data discovery process today.
-
-EDA’s are also essential because by encouraging statisticians to explore the data, they can possibly formulate hypotheses for why these patterns occur, which could lead to further/new data collection and experiments.  
-
-
- been handed a dataset and then been asked to describe it
- 
-EDA can be a very large area of focus.
-
-It can also help determine if the statistical techniques you are considering for data analysis are appropriate.
-
-It can help identify obvious errors. 
-
-
-
-A strategy I would use for EDA after reading the selected artilces provided is as follows:
-
 .: *What is your overall goal when doing an EDA?* :.
 
+Exploratory Data Analysis (EDA) can be a very large area of focus. When handed a dataset and then being asked to describe it, EDA is an critical tool/approach/philosophy, used by data scientists, for data analysis and is primarily used to investigates data sets by using many differnt techniques (usually via statistical graphics and other data visualization methods) to maximize insight on / see what can be revealed about a given data set beyond the formal modeling and therefore differs in comparision to traditional hypothesis testing.
+
+EDA was promoted by American mathematician John Tukey since 1970 and is essential because by encouraging statisticians to explore the data. This can be done with or without a formal statistical model and is meant to summarize the main characteristics of the given data set by providing a better understanding of the missingness behind the data, the variables and the relationships/patterns/correlation between/within them before making any assumptions, and detect outliers in the data set. This helps to determine how best to manipulate data sources to get invaluable answers you need to some of those crucial business questions, which makes it easier for data scientists to discover, again, significant patterns and outliers -- leading data scientists to possibly formulate hypotheses for why these patterns occur or check thier assumptions (helps determine if the statistical techniques you are considering for data analysis are appropriate), which could lead to further/new data collection and experiments. EDA can also help identify obvious errors in your approach and it is made clear that taking notes thorughout this entire process is very important.
+
+Tools that can help this process are programming languages such as R and Python.
+
 I think that the overall goal when doing an EDA is:
+
+> - to maximize insight into a data set
+> - uncover underlying structure of the data / summarise their main characteristics
+> - extract important variables (features/factors)
+> - detect outliers and anomalies
+> - test underlying assumptions
+> - develop a cost effective models
+> - determine optimal factor settings
+
+
+
 
 
 > enable unexpected discoveries in the data (done)
@@ -56,38 +50,10 @@ I think that the overall goal when doing an EDA is:
 > support the selection of appropriate statistical tools and techniques
 > provide a basis for further data collection through surveys or experiments
     
-    
- 
 
 
 
-
-
-
-   
-
-
-
-
-
-
- 
-
-
-
-
-
-
-> 
-> 
-> tools R and Python... 
-
-
-
- 
-
-
-
+This technique continues to be a widely used method in the data discovery process today.
 
 
 
@@ -99,65 +65,32 @@ I think that the overall goal when doing an EDA is:
 
 Some methods that I think are important when carrying out an EDA are:
 
-important to take notes thorughout this process.
-
-Before You Start
 
 
-1. Check For Missing Data
-2. Provide Basic Descriptions of Your Sample and Features
-3. Identify The Shape of Your Data
+Before you start exploring the data, its important to know what the intended outcome of your EDA will be and to gain as much context as possible in order to have a high level understanding of your data (e.g. What kind of data is this? What is it about?), which will help focus your efforts. Sometimes this could lead to subsampling your dataset in the case tha it is too big to avoid compulational bottlebecking that may occur later on. You can do this by observing the first couple of rows of the data and trying to identify what makes each row (samples) unique. 
+
+When looking at the data itself you want to:
+
+1. Check For Missing Data (Great place to start. Underlying reason behind missingness - why and see behavior, hypothesize why; can't just get rid of these observations because it will introduce bias into your dataest. Rank the columns by least missing to most missing. Missing data is also a feature and should be looked at too.)
+
+2. Provide Basic Descriptions of Your Sample and Features (How many rows (samples) and columns (features)? Is it a reasonable sized data to work with? What is a unique identifier? How are the rows unique? What are their ranges? Look at each column at a time to plan for future analaysis. Depending on the type of data, we can create different graphs to look at the data -- continuous, discrete, categorical. this dictates how we move forawrd because diffrent data requires differnt techniques/statitical method and viusliation (its not one size fits all))
+
+3. Identify The Shape of Your Data (via pmf, pdf, -- look at mean, variance of each feature. Look into reasons behind any drastic changes, patterns, low/high values for e.g. variance of each feature. hypothesize this behavior. )
+
+Here a few things that PMFs and PDFs can tell you about your data: 
+ 
+    - Skewness
+    - Is the feature heterogeneous (multimodal)?
+    - If the PDF has a gap in it, the feature may be disconnected.
+    - Is it bounded?
+
 4. Identify Significant Correlations
+
 5. Spot Outliers in the Dataset
 
 
 What’s Next?
 
-
-
-   uncover underlying structure / summarise their main characteristics;
-    extract important variables;
-    detect outliers and anomalies;
-    test underlying assumptions;
-    develop parsimonious models; and
-    determine optimal factor settings.
-
-
-> Before you start exploring the data, you should try to understand the data at a high level.  Speak to leadership and product to try to gain as much context as possible to help inform where to focus your efforts. Are you interested in performing a prediction task? Is the task purely for exploratory purposes? Depending on the intended outcome, you might point out very different things in your EDA.
-> noce you inderstand that , time to look at your dataset how many samples (rows) and how many features (columns) are in your dataset, keep in mind subsampling your dataset it too big to avoid computationa bottlenecking that may occur down the road; observe first couple of rows to see the type of data you are workign with
-> question to address,... What is the unique identifier of each row in the data?
-
-- what kind of data, what is it about
-- how many rows and cols sample features
-- reasonable size to work wiht?
-- -what is a unique idnitier ? one obs of data per row
-- how may unique tings
-- what re their ranges
-
-start: looking at data itself
-- check for missing data good plce to start
-- look at features one at a time (cols) for analysis and future ananysis
-- rank cols / features by how much missing they have large to smal l (some say remove - dont!) but understand why missing ansd see behavior
-- could be a reson why feature left balnk
-- hyphtesize why
-- if we remove wihtout thinking about it we intorduce bias into out data...
-- Therefore, this missing data is a feature in its own right and should be treated as such.
-- - what does missingness mean?
-- no simple answer
-- imputation () linear interpolatoin () -- approach depends on data type
-
-2. categorize your features 
- continuous, discrete, categorical -dictates how we move forwardbecuase diff data requires diff techinqes/statitical method and viusliation (its not one size fits all )
-
-3. look at th shape (pmf pdf) of your feature, mean , variance after for each feature
- any chages? patters? hypothesize behavior
- low high vaiance? - addtional invetigation
-Here a few things that PMFs and PDFs can tell you about your data: 
- 
-    Skewness
-    Is the feature heterogeneous (multimodal)?
-    If the PDF has a gap in it, the feature may be disconnected.
-    Is it bounded?
 
  
  4. Correlation measures the relationship between two variable quantities. The easiest way to visualize correlation is by plotting a scatter plot 
