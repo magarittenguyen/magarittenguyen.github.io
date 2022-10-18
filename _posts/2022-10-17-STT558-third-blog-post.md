@@ -30,15 +30,15 @@ Before you start exploring the data, its important to know what the intended out
 
 When looking at the data itself you want to:
 
-1. Check For Missing Data 
+I. Check For Missing Data 
 
 A great place to start looking at your data is to look at the missing data and trying to understand/hypothesize the underlying reason behind its missingness and have a plan on how to deal with them. For example, we can't just get rid of these observations because it will introduce bias into your dataest. One technique is to rank the columns by least missing to most missing and looking into the columns one by one. Missing data is also a feature and should be looked at too.
 
-2. Provide Basic Descriptions of Your Sample and Features 
+II. Provide Basic Descriptions of Your Sample and Features 
 
 Providing a basic description of your features and categorizing them helps with this step. This will drastically change the visualizations you use and the statistical methods you apply. For instnace, we want to see how many rows (samples) and columns (features) are in the dataset. Also, we want to ask ourselves -- is it a reasonable sized data to work with? If not, how can we subsample as mentioned above. Ask questions like -- What is a unique identifier? How are the rows unique? What are their ranges? We can also look at each column, one at a time, to plan for future analaysis. Depending on the type of data, we can create different graphs to look at the data -- continuous, discrete, categorical. This dictates how we move forawrd because diffrent data requires differnt techniques/statitical method and viusliation (its not one size fits all)).
 
-3. Identify The Shape of Your Data 
+III. Identify The Shape of Your Data 
 
 Understand your data by visualizing its distribution/shape. Get comfortable with how your data changes across samples and over time. Some ways ot do this are with via PMF or PDF. Look at mean and variance of each featurr, look into the reasons behind any drastic changes, patterns, low/high values and hypothesize the reason behind this behavior. 
 
@@ -57,11 +57,11 @@ Other common types of multivariate graphics include:
 - Bubble chart, which is a data visualization that displays multiple circles (bubbles) in a two-dimensional plot.
 - Heat map, which is a graphical representation of data where values are depicted by color.
 
-4. Identify Significant Correlations 
+IV. Identify Significant Correlations 
 
 Make note of the reationships you see between your features. Meaning can be drawn from this down the raod. For example, the easiest way to visualize correlation is with a scatter plot or if high number of features to save time create a Pearson correlation matrix for your dataset.  
 
-5. Spot Outliers in the Dataset 
+V. Spot Outliers in the Dataset 
 
 A crucial step in EDA. Outliers can influence your findings if you don’t know about them or how to deal with them, so make sure you can identify them and have a plan to deal with them.
 
