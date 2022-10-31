@@ -14,9 +14,9 @@ The estimated time to complete this assignment is 20-40 minutes.
 
 #### When building regression models, it often takes a lot of experience and knowledge about your data in order to determine the variables and transformation of variables that you want to include in the model building process.  There are many variable selection techniques (or feature selection) but it can be a confusing practice when you are first learning.  Read through these articles (and others if you'd like to find your own):  
 
-> https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969114/
-> https://www.biostat.jhsph.edu/~iruczins/teaching/jf/ch10.pdf
-> https://link.springer.com/content/pdf/10.1057/jt.2009.26.pdf 
+> https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969114/  
+> https://www.biostat.jhsph.edu/~iruczins/teaching/jf/ch10.pdf  
+> https://link.springer.com/content/pdf/10.1057/jt.2009.26.pdf   
 
 For your blog post, write up a brief discussion of how you would plan to determine variables to use in a regression model.  What variable selection techniques do you prefer and why?.  
 
