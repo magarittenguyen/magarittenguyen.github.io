@@ -20,6 +20,11 @@ The estimated time to complete this assignment is 20-40 minutes.
 
 For your blog post, write up a brief discussion of how you would plan to determine variables to use in a regression model.  What variable selection techniques do you prefer and why?.  
 
+<!--
+https://quantifyinghealth.com/variables-to-include-in-regression/
+-->
+
+
 Statistical models are useful tools applied in many research fields dealing with empirical data. They connect an outcome variable to one or several so‐called independent variables and quantify the strength of association between IVs and outcome variable.
 
 “We recognize that true models do not exist. … A model will only reflect underlying patterns, and hence should not be confused with reality.”
@@ -46,6 +51,11 @@ Common assumptions of these models are linearity, that is the expected outcome v
 
 - Many authors have repeatedly highlighted the importance of using background knowledge to guide variable selection. Background knowledge can be incorporated at least at two stages, and it requires an intensive interplay between the PI of the research project (usually a nonstatistician) and the statistician in charge of designing and performing statistical analysis. At the first stage, the PI will use subject‐specific knowledge to derive a list of IVs which in principle are relevant as predictors or adjustment variables for the study in question. This list will mostly be based on the availability of variables, and must not take into account the empirical association of IVs with the outcome variable in the data set.
 
+	
+.: What variable selection techniques do you prefer and why? :.
+
+
+
 - Hypothesis tests are the most popular criteria used for selecting variables in practical modeling problems. 
 - forward selection (FS) 
 - backward elimination (BE)
@@ -71,11 +81,9 @@ Do not perform variable selection on IVs with known strong effects.
 
 - 
 
-.: What variable selection techniques do you prefer and why? :.
-
-<!--
-
--->
+	SAS procedures
+	Modeling techniques	PROC GLMSELECT	PROC REG	PROC LOGISTIC 
+	
 
 <!--
 Your blog post can be written in a conversational tone or more formally (however you want to represent yourself).  There is no word count or anything like that, just make sure you answer the prompts above to receive full credit.
