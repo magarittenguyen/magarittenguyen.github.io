@@ -57,7 +57,7 @@ Common assumptions of these models are linearity, that is the expected outcome v
 .: What variable selection techniques do you prefer and why? :.
 
 -  again things from ST518 i cannot recall off the top of my head...
--  i would either do forward or backwards selection and look at tewky's ???
+-  i would either do forward or backwards selection and look at Tukey's Method???
 -  if there is significance then i would keep the variable - if not, then i would remove it from the model...
 -  consider things that are too highly correlated and remove those
 -  run in sas using proc reg / prog glm to help out with this...
@@ -91,7 +91,10 @@ Do not perform variable selection on IVs with known strong effects.
 	SAS procedures
 	Modeling techniques	PROC GLMSELECT	PROC REG	PROC LOGISTIC 
 	
+- In predictive research, variable selection may improve the accuracy of the predictions, but background knowledge can also be incorporated, going as far as updating the coefficients of an existing model with new data, and employing variable selection methods to assess that coefficients to update 
 
+- now im ssecond guessing how i go about selecting varibales for my model because im not familiar with how my choices sould have a downfall
+- 
 <!--
 Your blog post can be written in a conversational tone or more formally (however you want to represent yourself).  There is no word count or anything like that, just make sure you answer the prompts above to receive full credit.
 
