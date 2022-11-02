@@ -97,7 +97,10 @@ Do not perform variable selection on IVs with known strong effects.
 
 - now im ssecond guessing how i go about selecting varibales for my model because im not familiar with how my choices sould have a downfall
 
-e.g. from article is that --> 5. Stepwise selection yields confi dence limits that are far too narrow.
+e.g. from article below --> 5, 7, 8, 9
+
+I'm definitly in that group that does not have alot of experience... -_-
+
 
 weaknesses:
 
@@ -109,7 +112,7 @@ weaknesses:
 2. All-subset selection regression can yield models that are too small.   
 3. The rationale for the number of candidate variables, and not the number in the final model, is the number of degrees of freedom to consider.  
 4. The data analyst knows more than the computer and failure to use that knowledge produces inadequate data analysis.   
-5. Stepwise selection yields confi dence limits that are far too narrow.   
+5. Stepwise selection yields confidence limits that are far too narrow.   
 6. Regarding the frequency of obtaining authentic predictor and noise variables, the degree of correlation among the predictor variables affects the frequency with which authentic predictor variables can fi nd their way into the final model. The number of candidate predictor variables can also affect the number of noise variables that gain entry to the model.   
 7. Stepwise selection will not necessarily produce the best model if there are redundant predictors (a common problem).   
 8. There are two distinct questions here: (a) When is Stepwise selection appropriate? and (b) Why is it so popular? 
