@@ -24,6 +24,7 @@ For your blog post, write up a brief discussion of how you would plan to determi
 https://quantifyinghealth.com/variables-to-include-in-regression/
 -->
 
+things learned in ST518 that i cannot recall off the top of my head...
 
 Statistical models are useful tools applied in many research fields dealing with empirical data. They connect an outcome variable to one or several so‐called independent variables and quantify the strength of association between IVs and outcome variable.
 
