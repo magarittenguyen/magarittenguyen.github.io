@@ -52,10 +52,16 @@ Common assumptions of these models are linearity, that is the expected outcome v
 
 - Many authors have repeatedly highlighted the importance of using background knowledge to guide variable selection. Background knowledge can be incorporated at least at two stages, and it requires an intensive interplay between the PI of the research project (usually a nonstatistician) and the statistician in charge of designing and performing statistical analysis. At the first stage, the PI will use subject‐specific knowledge to derive a list of IVs which in principle are relevant as predictors or adjustment variables for the study in question. This list will mostly be based on the availability of variables, and must not take into account the empirical association of IVs with the outcome variable in the data set.
 
+- I would either use all the varibles available -- the main effects, and the interaction effects (every interaction possible) -- ive only ever gone up to 3 varibles that have interactions... this is what I am familiar with
 	
 .: What variable selection techniques do you prefer and why? :.
 
-
+-  again things from ST518 i cannot recall off the top of my head...
+-  i would either do forward or backwards selection and look at tewky's ???
+-  if there is significance then i would keep the variable - if not, then i would remove it from the model...
+-  consider things that are too highly correlated and remove those
+-  run in sas using proc reg / prog glm to help out with this...
+-  what im most familiar with / most comfortable with I would use...
 
 - Hypothesis tests are the most popular criteria used for selecting variables in practical modeling problems. 
 - forward selection (FS) 
