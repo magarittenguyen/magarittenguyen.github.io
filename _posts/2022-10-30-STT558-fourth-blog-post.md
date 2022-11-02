@@ -57,6 +57,7 @@ Common assumptions of these models are linearity, that is the expected outcome v
 .: What variable selection techniques do you prefer and why? :.
 
 -  again things from ST518 i cannot recall off the top of my head...
+-  cant seem to hide form EDA...
 -  there are a set of asusmptions we have to follow depending on the method we chose (all ST518)!!!
 -  i would either do forward or backwards selection and look at Tukey's Method???
 -  if there is significance then i would keep the variable - if not, then i would remove it from the model...
@@ -95,7 +96,29 @@ Do not perform variable selection on IVs with known strong effects.
 - In predictive research, variable selection may improve the accuracy of the predictions, but background knowledge can also be incorporated, going as far as updating the coefficients of an existing model with new data, and employing variable selection methods to assess that coefficients to update 
 
 - now im ssecond guessing how i go about selecting varibales for my model because im not familiar with how my choices sould have a downfall
-- 
+
+
+1. For All-subset selection with more than 40 variables :   
+	(a) The number of possible subsets can be huge.  
+	(b) Often, there are several good models, although some are unstable.  
+	(c) The best X variables may be no better than random variables, if the size sample is relatively smaller than the total number of variables.  
+	(d) The regression statistics and regression coeffi cients are biased.  
+2. All-subset selection regression can yield models that are too small.   
+3. The rationale for the number of candidate variables, and not the number in the final model, is the number of degrees of freedom to consider.  
+4. The data analyst knows more than the computer and failure to use that knowledge produces inadequate data analysis.   
+5. Stepwise selection yields confi dence limits that are far too narrow.   
+6. Regarding the frequency of obtaining authentic predictor and noise variables, the degree of correlation among the predictor variables affects the frequency with which authentic predictor variables can fi nd their way into the final model. The number of candidate predictor variables can also affect the number of noise variables that gain entry to the model.   
+7. Stepwise selection will not necessarily produce the best model if there are redundant predictors (a common problem).   
+8. There are two distinct questions here: (a) When is Stepwise selection appropriate? and (b) Why is it so popular? 
+9. As to question (b) above, there are two groups that are inclined to favor its usage. One consists of individuals, with little formal training in data analysis, who confuse knowledge of data analysis with knowledge of the syntax of SAS, SPSS and so on. They seem to feel that ‘ if it ’ s there in a program, it ’ s gotta be good – and
+better than actually thinking about what my data might look like ’ . They are fairly easy to spot and condemn in a group of well-trained data analysts . However, there is also a second group that is often well trained. Its members believe in statistics, but believe that given any properly obtained database, a suitable computer program can objectively make substantive inferences without active consideration of the underlying hypotheses. Stepwise selection is the parent of this blind data analysis
+
+
+
+
+
+
+
 <!--
 Your blog post can be written in a conversational tone or more formally (however you want to represent yourself).  There is no word count or anything like that, just make sure you answer the prompts above to receive full credit.
 
