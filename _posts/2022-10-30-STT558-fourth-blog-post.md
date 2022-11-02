@@ -57,6 +57,7 @@ Common assumptions of these models are linearity, that is the expected outcome v
 .: What variable selection techniques do you prefer and why? :.
 
 -  again things from ST518 i cannot recall off the top of my head...
+-  there are a set of asusmptions we have to follow depending on the method we chose (all ST518)!!!
 -  i would either do forward or backwards selection and look at Tukey's Method???
 -  if there is significance then i would keep the variable - if not, then i would remove it from the model...
 -  consider things that are too highly correlated and remove those
