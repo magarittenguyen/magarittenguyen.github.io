@@ -101,6 +101,8 @@ e.g. from article below --> 5, 7, 8, 9
 
 I'm definitly in that group that does not have alot of experience... -_-
 
+- these articles are definitly informative, but im not sure i understood all of them 100%
+
 
 weaknesses:
 
