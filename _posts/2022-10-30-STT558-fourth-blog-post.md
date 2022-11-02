@@ -97,12 +97,15 @@ Do not perform variable selection on IVs with known strong effects.
 
 - now im ssecond guessing how i go about selecting varibales for my model because im not familiar with how my choices sould have a downfall
 
+e.g. from article is that --> 5. Stepwise selection yields confi dence limits that are far too narrow.
+
+weaknesses:
 
 1. For All-subset selection with more than 40 variables :   
 	(a) The number of possible subsets can be huge.  
 	(b) Often, there are several good models, although some are unstable.  
 	(c) The best X variables may be no better than random variables, if the size sample is relatively smaller than the total number of variables.  
-	(d) The regression statistics and regression coeffi cients are biased.  
+	(d) The regression statistics and regression coefficients are biased.  
 2. All-subset selection regression can yield models that are too small.   
 3. The rationale for the number of candidate variables, and not the number in the final model, is the number of degrees of freedom to consider.  
 4. The data analyst knows more than the computer and failure to use that knowledge produces inadequate data analysis.   
