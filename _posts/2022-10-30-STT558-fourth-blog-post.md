@@ -113,7 +113,7 @@ better than actually thinking about what my data might look like ’ . They are 
 EDA includes the following characteristics:   
 1. Flexibility – techniques with greater flexibility to delve into the data;   
 2. Practicality – advice on procedures to analyze data;  
-3. Innovation – techniques for interpreting results;  
+3. Innovation – techniques for interpreting results;   
 4. Universality – use all of statistics that apply to analyzing data; and  
 5. Simplicity – above all, the belief that simplicity is the golden rule.  
 
