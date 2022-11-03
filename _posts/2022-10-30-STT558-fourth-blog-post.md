@@ -65,6 +65,7 @@ Prior to variable selection:
 - Many authors have repeatedly highlighted the importance of using background knowledge to guide variable selection. Background knowledge can be incorporated at least at two stages, and it requires an intensive interplay between the PI of the research project (usually a nonstatistician) and the statistician in charge of designing and performing statistical analysis. At the first stage, the PI will use subject‐specific knowledge to derive a list of IVs which in principle are relevant as predictors or adjustment variables for the study in question. This list will mostly be based on the availability of variables, and must not take into account the empirical association of IVs with the outcome variable in the data set.  
 
 - I would either use all the varibles available -- the main effects, and the interaction effects (every interaction possible) -- ive only ever gone up to 3 varibles that have interactions... this is what I am familiar with  
+- keep the lower order terms associated with the higher order terms... (e.g. if x^2, keep x)
 	
 .: What variable selection techniques do you prefer and why? :.  
 
