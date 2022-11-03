@@ -24,21 +24,21 @@ For your blog post, write up a brief discussion of how you would plan to determi
 https://quantifyinghealth.com/variables-to-include-in-regression/
 -->
 
-After reading these artilces on model and variable selection, I'm realizing how much I don't know, and I'm left feeling like I will second guess myself even more without concrete directions form a professor. I definitly exhibit some if not most of the downfalls mentioned in one articles for young statisticians.
+After reading these artilces on model and variable selection, I've realized how much I don't know concerning regression models.  I'm left second guessing myself without concrete direction from a professor. Especially when these articles say "We recognize that true models do not exist. … A model will only reflect underlying patterns, and hence should not be confused with reality.". I exhibit some, if not most, of the downfalls mentioned in articles aimed at statisticians with less experience. But, realizing one’s faults is not necessarily a bad thing. Being aware of what you are doing incorrectly can often be just as, or even more, useful than knowing your strengths.
 
-things learned in ST518 that i cannot recall off the top of my head...
 
-Statistical models are useful tools applied in many research fields dealing with empirical data. They connect an outcome variable to one or several so‐called independent variables and quantify the strength of association between IVs and outcome variable.
 
-“We recognize that true models do not exist. … A model will only reflect underlying patterns, and hence should not be confused with reality.”
+
+Statistical models are useful tools applied in many research fields that connect an response/dependent variable to one or several independent variables. The strength of correlation between IVs and outcome variable is quantified. 
+
+
+
 
 Finally, as we recognize that no statistical model comes without any assumptions, we conclude that robustness to mild or moderate violations of those assumptions is also a key requirement.
 
-This is because most of the methods that are described and discussed here were developed for the linear model with Gaussian errors, but were then transferred to other models for noncontinuous outcome variables.
 
-The paper is intended for the practicing statistician, whose routine work includes the development, estimation, and interpretation of statistical models for observational data to help answering research questions in life sciences. (most applicable to me)
 
-Within predictive research questions, predictive (or prognostic) models have the aim to accurately predict an outcome value from a set of predictors. Explanatory models are used in etiological research and should explain differences in outcome values by differences in explanatory variables. Finally, descriptive models should “capture the association between dependent and independent variables” (Shmueli, 2010). In the life sciences, models of all three types are needed. Still, they differ in the way they are used and interpreted.
+
 
 While prognostic models focus on predictions, explanatory models are used to estimate (causal) effects of risk factors or exposures by means of adjusted effect estimation, and descriptive models can have elements of both.
 
@@ -49,6 +49,10 @@ Common assumptions of these models are linearity, that is the expected outcome v
 
 
 .: How you would plan to determine variables to use in a regression model. :.
+
+The paper is intended for the practicing statistician, whose routine work includes the development, estimation, and interpretation of statistical models for observational data to help answering research questions in life sciences. (most applicable to me)
+
+Within predictive research questions, predictive (or prognostic) models have the aim to accurately predict an outcome value from a set of predictors. Explanatory models are used in etiological research and should explain differences in outcome values by differences in explanatory variables. Finally, descriptive models should “capture the association between dependent and independent variables” (Shmueli, 2010). In the life sciences, models of all three types are needed. Still, they differ in the way they are used and interpreted.
 
 Variable selection is intended to select the best subset of predictors. But why bother?  
 1. We want to explain the data in the simplest way redundant predictors should be removed. The principle of Occam's Razor states that among several plausible explanations for a phenomenon, the simplest is best. Applied to regression analysis, this implies that the smallest model that TS the data is best.   
