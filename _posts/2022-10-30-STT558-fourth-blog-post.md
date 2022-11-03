@@ -68,7 +68,7 @@ Things to Keep in Mind:
 
 Finding the best possible subset of variables to put in a model has been frustrating as many variable selection methods exist. I was not aware of all the pitfalls of my model selection methods. In the end, it looks like we just have to do our best to pick the best model out there for out specific data or else the conclusions might now be as telling.
 
-Lastly, from article list below, I fall here --> 5, 7, 8, 9  
+Lastly, from article list below, I fall here --> 5, 7, 8, 9  (I'm sure all of them in one way or another)
 
 Weaknesses/Downfalls of Modeling Techniques:
 
