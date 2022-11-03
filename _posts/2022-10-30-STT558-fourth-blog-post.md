@@ -24,11 +24,20 @@ For your blog post, write up a brief discussion of how you would plan to determi
 https://quantifyinghealth.com/variables-to-include-in-regression/
 -->
 
-After reading these artilces on model and variable selection, I've realized how much I don't know concerning regression models.  I'm left second guessing myself without concrete direction from a professor. Especially when these articles say "We recognize that true models do not exist. … A model will only reflect underlying patterns, and hence should not be confused with reality.". I exhibit some, if not most, of the downfalls mentioned in articles aimed at practicing statisticians with less experience. But, realizing one’s faults is not necessarily a bad thing. Being aware of what you are doing incorrectly can often be just as, or even more, useful than knowing your strengths. A lot of this was learned in ST518, but I'm having trouble recalling because I don't use this in my daily life. These articles are definitly informative, but I'm not sure I understood all of them 100%.  
+After reading these articles on model and variable selection, I've realized how much I don't know concerning regression models.  I'm left second guessing myself without concrete direction from a professor. Especially when these articles say "We recognize that true models do not exist. … A model will only reflect underlying patterns, and hence should not be confused with reality.". I exhibit some, if not most, of the downfalls mentioned in articles aimed at practicing statisticians with less experience. But, realizing one’s faults is not necessarily a bad thing. Being aware of what you are doing incorrectly can often be just as, or even more, useful than knowing your strengths. A lot of this was learned in ST518, but I'm having trouble recalling because I don't use this in my daily life. These articles are definitly informative, but I'm not sure I understood all of them 100%.  
 
 Statistical models are useful tools applied in many research fields that connect an response/dependent variable to one or several independent variables (IVs) and quantifies the strength of associations between them. We also should recognize that no statistical model comes without any assumptions (they sometimes get violated). no No analysis is bias-free and these asusumptions can introduce bias into the equation no matter how much we try to avoid it. It important to also consider the importance of knowing your data thoroughly before considering variables or selecting a model. For life sciences, it requires an intensive interplay between the PI of the research project (usually a nonstatistician) and the statistician in charge of designing and performing statistical analysis.
 
-In ST518, I remember that depending on the method we chose, it came with a set of assumptions that we have to follow -- usually, assumping independence between observations and the observations following a certain distribution (normal, t, F, chisq).
+In ST518, I remember that depending on the method we chose, it came with a set of assumptions that we have to follow -- usually, assumping independence between observations and the observations following a certain distribution (normal, t, F, chisq
+
+Example:  
+
+Assumptions of the model:  
+epsilon_i ~ iid (0, sigma^2)  
+-	Normally distributed  
+-	Centered at zero: E(epsilon) = 0  
+-	Constant variance: Var(epsilon) = sigma^2  
+-	Independent    
 
 Routine work for a practicing statistician includes the development, estimation, and interpretation of statistical models for observational data geared towards answering research questions in life sciences -- this is most applicable to me as I work in drug development. 
 
