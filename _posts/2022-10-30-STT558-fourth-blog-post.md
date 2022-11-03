@@ -24,7 +24,7 @@ For your blog post, write up a brief discussion of how you would plan to determi
 https://quantifyinghealth.com/variables-to-include-in-regression/
 -->
 
-After reading these artilces on model and variable selection, I've realized how much I don't know concerning regression models.  I'm left second guessing myself without concrete direction from a professor. Especially when these articles say "We recognize that true models do not exist. … A model will only reflect underlying patterns, and hence should not be confused with reality.". I exhibit some, if not most, of the downfalls mentioned in articles aimed at practicing statisticians with less experience. But, realizing one’s faults is not necessarily a bad thing. Being aware of what you are doing incorrectly can often be just as, or even more, useful than knowing your strengths. A lot of this was learned in ST518, but I'm having trouble recalling because I don't use this in my daily life.
+After reading these artilces on model and variable selection, I've realized how much I don't know concerning regression models.  I'm left second guessing myself without concrete direction from a professor. Especially when these articles say "We recognize that true models do not exist. … A model will only reflect underlying patterns, and hence should not be confused with reality.". I exhibit some, if not most, of the downfalls mentioned in articles aimed at practicing statisticians with less experience. But, realizing one’s faults is not necessarily a bad thing. Being aware of what you are doing incorrectly can often be just as, or even more, useful than knowing your strengths. A lot of this was learned in ST518, but I'm having trouble recalling because I don't use this in my daily life. These articles are definitly informative, but im not sure i understood all of them 100%.  
 
 Statistical models are useful tools applied in many research fields that connect an response/dependent variable to one or several independent variables (IVs) and quantifies the strength of associations between them. We also should recognize that no statistical model comes without any assumptions (they sometimes get violated). no No analysis is bias-free and these asusumptions can introduce bias into the equation no matter how much we try to avoid it. It important to also consider the importance of knowing your data thoroughly before considering variables or selecting a model. For life sciences, it requires an intensive interplay between the PI of the research project (usually a nonstatistician) and the statistician in charge of designing and performing statistical analysis.
 
@@ -49,7 +49,7 @@ Our goal is to explain the data in the simplest way and removing redundant predi
 
 .: What variable selection techniques do you prefer and why? :.  
 
-The variable selectoin technique that I would prefer is probably one that was more familiar to me -- stepwise (combo of forward and backward selection), but I know that this has pitfalls I need to keep in mind. This seems most intuative to me because either we start with a model where we add one variable at a time, start with a full model and remove what we deem is insignificant after each run, or a combo of the two, respectively. Repeat this until all insignificant variables are removed or significant variables are added after each reestimation. 
+The variable selection technique that I would prefer is probably one that was more familiar to me -- stepwise (combo of forward and backward selection), but I know that this has pitfalls/might not be my best option and I need to keep in mind. This seems most intuative to me because either we start with a model where we add one variable at a time, start with a full model and remove what we deem is insignificant after each run, or a combo of the two, respectively. Repeat this until all insignificant variables are removed or significant variables are added after each reestimation. 
  
 Also, just based of things I have heard over the years, Tukey's is something that I will / should use a lot in my course work / career.
  
@@ -62,9 +62,11 @@ Things to Keep in Mind:
 - Hypothesis tests are the most popular criteria used for selecting variables in practical modeling problems   
 - Hierarchy of Terms -- keep the lower order terms associated with the higher order terms / interactions... (e.g. if x^2, keep x)
 - Consider things that are too highly correlated and remove those  
-- Programs can help with the computation - I'm more familiar with SAS Procedures -- Modeling techniques: PROC GLM, PROC REG, PROC LOGISTIC   
+- Programs can help with the computation - I'm more familiar with SAS Procedures -- Modeling techniques: PROC GLM, PROC REG, PROC LOGISTIC -- R and SPSS also available (need to be careful of the software capabilites)   
 - Do not perform variable selection on IVs with known strong effects
-- keep in mind confounding factors	
+- Keep in mind confounding factors	
+
+Finding the best possible subset of variables to put in a model has been frustrating as many variable selection methods exist. I was not aware of all the pitfalls of my model selection methods. In the end, it looks like we just have to do our best to pick the best model out there for out specific data or else the conclusions might now be as telling.
 
 Lastly, from article list below, I fall here --> 5, 7, 8, 9  
 
@@ -85,6 +87,8 @@ Weaknesses/Downfalls of Modeling Techniques:
 9. As to question (b) above, there are two groups that are inclined to favor its usage. One consists of individuals, with little formal training in data analysis, who confuse knowledge of data analysis with knowledge of the syntax of SAS, SPSS and so on. They seem to feel that ‘ if it ’ s there in a program, it ’ s gotta be good – and
 better than actually thinking about what my data might look like ’ . They are fairly easy to spot and condemn in a group of well-trained data analysts . However, there is also a second group that is often well trained. Its members believe in statistics, but believe that given any properly obtained database, a suitable computer program can objectively make substantive inferences without active consideration of the underlying hypotheses. Stepwise selection is the parent of this blind data analysis
 
+Other Useful Information from the Articles:
+
 EDA includes the following characteristics:   
 1. Flexibility – techniques with greater flexibility to delve into the data;   
 2. Practicality – advice on procedures to analyze data;  
@@ -92,7 +96,7 @@ EDA includes the following characteristics:
 4. Universality – use all of statistics that apply to analyzing data; and  
 5. Simplicity – above all, the belief that simplicity is the golden rule.  
 
-(b) The Natural Seven-step Cycle of Statistical Modeling and Analysis  
+The Natural Seven-step Cycle of Statistical Modeling and Analysis  
 1. Defi nition of the problem . Determining the best way to tackle the problem is not always obvious. Management objectives are often expressed qualitatively, in which case the selection of the outcome or target (dependent) variable is subjectively biased. When the objectives are clearly stated, the appropriate dependent variable is often unavailable, in which case a surrogate must be used.   
 2. Determining technique . The technique fi rst selected is often that with which the data analyst is most comfortable, and not necessarily the best technique for solving the problem.   
 3. Use of competing techniques . Applying alternative techniques increases the odds that a thorough analysis is conducted.   
@@ -100,14 +104,6 @@ EDA includes the following characteristics:
 5. Comparison in terms of a precise (and thereby inadequate) criterion . An explicit criterion is diffi cult to define;  therefore, precise surrogates are often used.
 6. Optimization in terms of a precise and similarly inadequate criterion . An explicit criterion is diffi cult to define; therefore, precise surrogates are often used.
 7. Comparison in terms of several optimization criteria . This constitutes the fi nal step in determining the best solution.  
-
-CONCLUSION
-
-Finding the best possible subset of variables to put in a model has been a frustrating exercise. Many variable selection methods exist. Many statisticians know them, but few know they produce poorly performing models. The resulting variable selection methods are a miscarriage of statistics because they are developed by debasing sound statistical theory to a misguided pseudotheoretical foundation. I have reviewed the five widely used variable selection methods, itemized some of their weaknesses, and described why they are used. I have then sought to present a better solution to variable selection in regression: the Natural Seven-step Cycle of Statistical Modeling and Analysis. I feel that newcomers to Tukey ’ s EDA need the Seven-step Cycle introduced within the narrative of Tukey ’ s analytic philosophy. Accordingly, I have embedded the solution within the context of EDA philosophy.  
-
-Be alert to the danger that a model contradictory to the tentative conclusions might be out there.
-
-These articles are definitly informative, but im not sure i understood all of them 100%  
 
 <!--
 Your blog post can be written in a conversational tone or more formally (however you want to represent yourself).  There is no word count or anything like that, just make sure you answer the prompts above to receive full credit.
