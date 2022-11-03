@@ -89,6 +89,11 @@ Prior to variable selection:
     Stop if no insignificant IV is left.  
 
 	All (Wald) p‐values in multivariable model < αB  
+	
+- stepwise / stepwise regression (forward and backwards combines)
+- 
+- Criterion-based methods typically involve a wider search and compare models in a preferable manner. For this reason, I recommend that you use a
+criterion-based method. -- AIC BIC
  
 - The Akaike information criterion (AIC)  
 - The Bayesian information criterion (BIC) was developed for situations where one assumes existence of a true model that is in the scope of all models that are considered in model selection.  
@@ -155,7 +160,8 @@ CONCLUSION
 
 Finding the best possible subset of variables to put in a model has been a frustrating exercise. Many variable selection methods exist. Many statisticians know them, but few know they produce poorly performing models. The resulting variable selection methods are a miscarriage of statistics because they are developed by debasing sound statistical theory to a misguided pseudotheoretical foundation. I have reviewed the five widely used variable selection methods, itemized some of their weaknesses, and described why they are used. I have then sought to present a better solution to variable selection in regression: the Natural Seven-step Cycle of Statistical Modeling and Analysis. I feel that newcomers to Tukey ’ s EDA need the Seven-step Cycle introduced within the narrative of Tukey ’ s analytic philosophy. Accordingly, I have embedded the solution within the context of EDA philosophy.  
 
-
+Be alert to the danger that a model
+contradictory to the tentative conclusions might be out there.
 
 <!--
 Your blog post can be written in a conversational tone or more formally (however you want to represent yourself).  There is no word count or anything like that, just make sure you answer the prompts above to receive full credit.
