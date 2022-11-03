@@ -124,9 +124,25 @@ weaknesses:
 9. As to question (b) above, there are two groups that are inclined to favor its usage. One consists of individuals, with little formal training in data analysis, who confuse knowledge of data analysis with knowledge of the syntax of SAS, SPSS and so on. They seem to feel that ‘ if it ’ s there in a program, it ’ s gotta be good – and
 better than actually thinking about what my data might look like ’ . They are fairly easy to spot and condemn in a group of well-trained data analysts . However, there is also a second group that is often well trained. Its members believe in statistics, but believe that given any properly obtained database, a suitable computer program can objectively make substantive inferences without active consideration of the underlying hypotheses. Stepwise selection is the parent of this blind data analysis
 
+EDA includes the following characteristics: 
+1. Flexibility – techniques with greater flexibility to delve into the data; 
+2. Practicality – advice on procedures to analyze data;
+3. Innovation – techniques for interpreting results;
+4. Universality – use all of statistics that apply to analyzing data; and
+5. Simplicity – above all, the belief that simplicity is the golden rule.
 
+(b) The Natural Seven-step Cycle of Statistical Modeling and Analysis
+1. Defi nition of the problem . Determining the best way to tackle the problem is not always obvious. Management objectives are often expressed qualitatively, in which case the selection of the outcome or target (dependent) variable is subjectively biased. When the objectives are clearly stated, the appropriate dependent variable is often unavailable, in which case a surrogate must be used. 
+2. Determining technique . The technique fi rst selected is often that with which the data analyst is most comfortable, and not necessarily the best technique for solving the problem. 
+3. Use of competing techniques . Applying alternative techniques increases the odds that a thorough analysis is conducted. 
+4. Rough comparisons of effi cacy . Comparing the variability of results across techniques can suggest additional techniques or the deletion of alternative techniques.
+5. Comparison in terms of a precise (and thereby inadequate) criterion . An explicit criterion is diffi cult to define;  therefore, precise surrogates are often used.
+6. Optimization in terms of a precise and similarly inadequate criterion . An explicit criterion is diffi cult to define; therefore, precise surrogates are often used.
+7. Comparison in terms of several optimization criteria . This constitutes the fi nal step in determining the best solution.
 
+CONCLUSION
 
+Finding the best possible subset of variables to put in a model has been a frustrating exercise. Many variable selection methods exist. Many statisticians know them, but few know they produce poorly performing models. The resulting variable selection methods are a miscarriage of statistics because they are developed by debasing sound statistical theory to a misguided pseudotheoretical foundation. I have reviewed the five widely used variable selection methods, itemized some of their weaknesses, and described why they are used. I have then sought to present a better solution to variable selection in regression: the Natural Seven-step Cycle of Statistical Modeling and Analysis. I feel that newcomers to Tukey ’ s EDA need the Seven-step Cycle introduced within the narrative of Tukey ’ s analytic philosophy. Accordingly, I have embedded the solution within the context of EDA philosophy.
 
 
 
