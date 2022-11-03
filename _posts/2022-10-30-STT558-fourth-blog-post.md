@@ -26,7 +26,7 @@ https://quantifyinghealth.com/variables-to-include-in-regression/
 
 After reading these artilces on model and variable selection, I've realized how much I don't know concerning regression models.  I'm left second guessing myself without concrete direction from a professor. Especially when these articles say "We recognize that true models do not exist. … A model will only reflect underlying patterns, and hence should not be confused with reality.". I exhibit some, if not most, of the downfalls mentioned in articles aimed at practicing statisticians with less experience. But, realizing one’s faults is not necessarily a bad thing. Being aware of what you are doing incorrectly can often be just as, or even more, useful than knowing your strengths.
 
-Statistical models are useful tools applied in many research fields that connect an response/dependent variable to one or several independent variables (IVs) and quantifies the strength of associations between them. We also should recognize that no statistical model comes without assumptions. This sometimes introduces bias no matter how much we try to avoid it. 
+Statistical models are useful tools applied in many research fields that connect an response/dependent variable to one or several independent variables (IVs) and quantifies the strength of associations between them. We also should recognize that no statistical model comes without any assumptions (they sometimes get violated). This sometimes introduces bias no matter how much we try to avoid it. 
 
 Routine work for a practicing statisticain includes the development, estimation, and interpretation of statistical models for observational data geared towards answering research questions in life sciences -- this is most applicable to me as I work in drug development. 
 
@@ -37,24 +37,17 @@ Models mentioned in this field are as follows:
 
 In the life sciences, models of all three types are needed. Still, they differ in the way they are used and interpreted.
 
-Finally, as we recognize that no statistical model comes without any assumptions, we conclude that robustness to mild or moderate violations of those assumptions is also a key requirement.
-
-
 .: How you would plan to determine variables to use in a regression model. :.
 
+In a more general sense, variable selection is intended to select the best subset of predictors.
+
+First, we would consider what kind of data we are dealing with. I don't think that we can ever really escape Exploritory Data Analysis (EDA/EDA2) -- like seeing if there is missingness, outliers, influential points, patterns between vars, etc. Also, figureing out what to do with these findings. It is also mentioned that keeping it simple is the best way to see what to include. I would start here. Once we have a bettwe understanding of our data I would consider either -- -- just out of familiarity. But, as mentioned previsouly, there are pitfalls to the choices that I make as a statistician without much experience. 
+
+Our goal is to explain the data in the simplest way and removing redundant predictors. It really is a balance to consider - the smallest model that has the most significant variables is the best model. This also saves on time and money by not measuring redundant predictors!
 
 
+  
 
-
-Variable selection is intended to select the best subset of predictors. But why bother?  
-1. We want to explain the data in the simplest way redundant predictors should be removed. The principle of Occam's Razor states that among several plausible explanations for a phenomenon, the simplest is best. Applied to regression analysis, this implies that the smallest model that TS the data is best.   
-2. Unnecessary predictors will add noise to the estimation of other quantities that we are interested in. Degrees of freedom will be wasted.  
-3. Collinearity is caused by having too many variables trying to do the same job.  
-4. Cost: if the model is to be used for prediction, we can save time and/or money by not measuring redundant predictors.  
-
-Prior to variable selection:
-1. Identify outliers and inuential points - maybe exclude them at least temporarily.  
-2. Add in any transformations of the variables that seem appropriate.  
 
 - we would need to know what type of data we are dealing with (my field is health sciences)  
 
