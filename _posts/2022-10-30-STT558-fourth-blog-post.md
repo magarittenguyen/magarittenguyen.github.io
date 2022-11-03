@@ -28,7 +28,9 @@ After reading these artilces on model and variable selection, I've realized how 
 
 Statistical models are useful tools applied in many research fields that connect an response/dependent variable to one or several independent variables (IVs) and quantifies the strength of associations between them. We also should recognize that no statistical model comes without any assumptions (they sometimes get violated). no No analysis is bias-free and these asusumptions can introduce bias into the equation no matter how much we try to avoid it. It important to also consider the importance of knowing your data thoroughly before considering variables or selecting a model. For life sciences, it requires an intensive interplay between the PI of the research project (usually a nonstatistician) and the statistician in charge of designing and performing statistical analysis.
 
-Routine work for a practicing statisticain includes the development, estimation, and interpretation of statistical models for observational data geared towards answering research questions in life sciences -- this is most applicable to me as I work in drug development. 
+In ST518, I remember that depending on the method we chose, it came with a set of assumptions that we have to follow -- usually, assumping independence between observations and the observations following a certain distribution (normal, t, F, chisq).
+
+Routine work for a practicing statistician includes the development, estimation, and interpretation of statistical models for observational data geared towards answering research questions in life sciences -- this is most applicable to me as I work in drug development. 
 
 Models mentioned in this field are as follows:  
 - Predictive (or prognostic) models -- the aim to accurately predict an outcome value from a set of predictors  
@@ -36,7 +38,6 @@ Models mentioned in this field are as follows:
 - Descriptive models -- capture the association between dependent and independent variables
 
 In the life sciences, models of all three types are needed. Still, they differ in the way they are used and interpreted.
-
 
 .: How you would plan to determine variables to use in a regression model. :.
 
@@ -46,49 +47,31 @@ In a more general sense, we would consider what kind of data we are dealing with
 
 Our goal is to explain the data in the simplest way and removing redundant predictors. It really is a balance to consider - the smallest model that has the most significant variables is the best model. This also saves on time and money by not measuring redundant predictors!
 
+.: What variable selection techniques do you prefer and why? :.  
+
+The variable selectoin technique that I would prefer is probably one that was more familiar to me -- stepwise (combo of forward and backward selection), but I know that this has pitfalls I need to keep in mind. This seems most intuative to me because either we start with a model where we add one variable at a time, start with a full model and remove what we deem is insignificant after each run, or a combo of the two, respectively. Repeat this until all insignificant variables are removed or significant variables are added after each reestimation. 
+ 
+Also, just based of things I have heard over the years, Tukey's is something that I will / should use a lot in my course work / career.
+ 
+After reading these artilces it seems like the best option would be to use a method that is criterion-based because it typically involves a wider search and compares models in a preferable manner. For this reason, it is most recommend that we use a criterion-based method -- AIC or BIC.
+ 
+- The Akaike information criterion (AIC)  
+- The Bayesian information criterion (BIC) -- developed for situations where one assumes existence of a true model that is in the scope of all models that are considered in model selection.  
+
+
+
+
 
 Things to Keep in Mind:
+- Hypothesis tests are the most popular criteria used for selecting variables in practical modeling problems.   
 - I would either use all the varibles available -- the main effects, and the interaction effects (every interaction possible) -- ive only ever gone up to 3 varibles that have interactions... this is what I am familiar with  
 - keep the lower order terms associated with the higher order terms... (e.g. if x^2, keep x)
 
-
-
-
-	
-.: What variable selection techniques do you prefer and why? :.  
-
- 
-
-In ST518, I remember that depending on the method we chose, it came with a set of assumptions that we have to follow -- usually, assumping independence between observations.
-
--  i would either do forward or backwards selection and look at Tukey's Method (seems like this is the best method) ???  
--  if there is significance then i would keep the variable - if not, then i would remove it from the model...  
 -  consider things that are too highly correlated and remove those  
 -  run in sas using proc reg / prog glm to help out with this...  
--  what im most familiar with / most comfortable with I would use...  
+- Do not perform variable selection on IVs with known strong effects
 
-- Hypothesis tests are the most popular criteria used for selecting variables in practical modeling problems.   
 
-- Backward elimination (BE)	 
-
-    Start with the global model.  
-    Repeat: Remove the most insignificant independent variable (IV) and reestimate the model.  
-    Stop if no insignificant IV is left.  
-
-	All (Wald) p‐values in multivariable model < αB  
-	
-- stepwise / stepwise regression (forward and backwards combines)
-- 
-- Criterion-based methods typically involve a wider search and compare models in a preferable manner. For this reason, I recommend that you use a
-criterion-based method. -- AIC BIC
- 
-- The Akaike information criterion (AIC)  
-- The Bayesian information criterion (BIC) was developed for situations where one assumes existence of a true model that is in the scope of all models that are considered in model selection.  
-
-- Situation	
-For some IVs it is known from previous studies that their effects are strong, for example age in cardiovascular risk studies or tumor stage at diagnosis in cancer studies.	
-- Recommendation  
-Do not perform variable selection on IVs with known strong effects.   
 
 - Often one is willing to trade in a little bias in return for considerably reduced variance. This means, that even in explanatory models where the set of adjustment variables necessary to control confounding is assumed to be known, some of the confounders’ association with the outcome may be so weak that adjustment may increase variance in the effect estimate of main interest more than reducing its bias. Consequently, depending on whether the true association of a potential confounder with the outcome is weak or strong, variable selection may be beneficial or harmful, even if performed with the same significance criterion.   
  
