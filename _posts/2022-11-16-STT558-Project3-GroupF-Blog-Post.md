@@ -34,7 +34,7 @@ This project was a collaborative efforts from Group F, which consisted of me an 
 
 **.: Questions :.**
    
-.: *what would you do differently?* :.
+**what would you do differently?**
 
 Some things that I would do differently:
 
@@ -48,7 +48,7 @@ Some things that I would do differently:
 
 I still feel the same as the last project? 
 
-.: *what was the most difficult part for you?* :.
+**what was the most difficult part for you?**
 
 Some things that I found difficult were:
 
@@ -57,7 +57,7 @@ Some things that I found difficult were:
 > - Making my code dynamic
 > - Getting familiar with GitHub again at first, like creating a new repo, linking GitHub and RStudio
 
-.: *what are your big take-aways from this project?* :.
+***what are your big take-aways from this project?**
 
 My big takeaways from this project are:
 
@@ -70,7 +70,7 @@ My big takeaways from this project are:
 ________________________________________________________________________________________
 ________________________________________________________________________________________
 
-.: *Links:* :.
+**.: Links: :.**
                            
 [Project 3 - GitHub Pages Link](https://magarittenguyen.github.io/ST558_Project3_GroupF/)
                                                        
