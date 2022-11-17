@@ -45,8 +45,7 @@ Some things that I would do differently:
 > - Tried to write the narrative and edit my comments as I was completing the project because going back over it would have just been proof reading and checking spacing once - still didnt do this again.
 > - I always feel like I should start sooner rather than later, even though I did start pretty early on this project. (I always wish I have more time, but I think we did a good job with the time we had.)
 > - make sure that one iteration works perfectly the first time so I don't have to keep rendering 6 at a time when i need to make a few small changes when I'm proof reading
-
-I still feel the same as the last project? 
+> - I still feel the same as the last project? 
 
 **what was the most difficult part for you?**
 
