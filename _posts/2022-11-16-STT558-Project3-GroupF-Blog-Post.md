@@ -56,7 +56,7 @@ Some things that I found difficult were:
 > - Making my code dynamic
 > - Getting familiar with GitHub again at first, like creating a new repo, linking GitHub and RStudio
 
-***what are your big take-aways from this project?**
+**what are your big take-aways from this project?**
 
 My big takeaways from this project are:
 
