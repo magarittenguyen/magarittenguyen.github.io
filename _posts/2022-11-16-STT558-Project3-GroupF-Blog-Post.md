@@ -116,8 +116,8 @@ ________________________________________________________________________________
 
 [Main Page of Blog Posts Link](https://magarittenguyen.github.io/)
  
-[Project 3 Blog Post Link](https://magarittenguyen.github.io/2022/11/16/STT558-Project2-Group3F-Blog-Post.html)
-
+[Project 3 Blog Post Link](https://magarittenguyen.github.io/2022/11/16/STT558-Project3-GroupF-Blog-Post.html)
+                           
 [Project 3 Summary Reports Main Rendered Landing Page Link](https://magarittenguyen.github.io/ST558_Project3_GroupF/)
                                                        
 [Project 3 GitHub Repo Link](https://github.com/magarittenguyen/ST558_Project3_GroupF)
