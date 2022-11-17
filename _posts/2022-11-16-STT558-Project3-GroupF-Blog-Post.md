@@ -26,11 +26,11 @@ The purpose of this project was for us to select the best predictive model from 
 
 We were to create a summary report based on 4 different models (MLR model #1, MLR model #2, Random Forest, and Boosting) and be able to select which model had the best  ability to predict the number of shared articles for 6 different channels based on which one had the smallest RMSE value. Once, one interation of our summary report was done for one channel (we chose to start with Lifestlye), we were then asked to expand this to all the other channels / subsets via automation. Then, we would have to store this on our GitHub and create nested GitHub pages -- each page being unique to each channel. 
 
-Before subsetting our data, we were to do some Exploritory Data Analysis (EDA) and produce summar statistics and meaningful plots for varibles we thought could be important to the prediction of shared articels.
+Before subsetting our data, we were to do some Exploritory Data Analysis (EDA) and produce summar statistics and meaningful plots for varibles we thought could be important to the prediction of shared articles.
+
+In the end, we found that in 4/6 times, the best predictive model was a boosting model.
 
 This project was a collaborative efforts from Group F, which consisted of me an my partner Matthew Sookoo. 
-
-In the end, we found that in 4/6 times, the best predictie model was a boosting model.
 
 **.: Questions :.**
    
