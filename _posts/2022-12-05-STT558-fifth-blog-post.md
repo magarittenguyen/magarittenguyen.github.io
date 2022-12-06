@@ -33,14 +33,14 @@ i. continue on the programming / technical path
 statsitical programmer III -> senior statistical programmer I -> senior statistical programmer II ->   
 
 ii. continue on the programming / technical path OR managerial path  
-principle statistical programmer I -> principle statistical programmer II  
+principle statistical programmer I -> principle statistical programmer II 
 or  
 associate manager -> manager -> senior manager -> associate director (idk if ill ever make it here, but again keeping my options open!)  
 
 or  
  
 ii. shift to the biostatistics department    
-biostatistician I -> biostatistician II -> senior biostatistician I -> senior biostatistician II -> principle biostatistician I -> principle biostatistician II
+biostatistician I -> biostatistician II -> senior biostatistician I -> senior biostatistician II -> principle biostatistician I -> principle biostatistician II -> statistical consultant  
 
 I also ask my self all the time if I have what it takes to finish a PhD Program, but I always have my doubts - like if I'm smart enough, will I have time to start a family, whether or not I need it for career advancement, work-life-school balance... so many questions. Not to mention my deathly fear of speaking in front of groups of people...
 
