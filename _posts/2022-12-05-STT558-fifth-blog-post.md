@@ -42,7 +42,7 @@ or
 ii. shift to the biostatistics department    
 biostatistician I -> biostatistician II -> senior biostatistician I -> senior biostatistician II -> principle biostatistician I -> principle biostatistician II -> statistical consultant  
 
-I also ask my self all the time if I have what it takes to finish a PhD Program, but I always have my doubts - like if I'm smart enough, will I have time to start a family, whether or not I need it for career advancement, work-life-school balance... so many questions. Not to mention my deathly fear of speaking in front of groups of people...
+I also ask my self all the time if I have what it takes to finish a PhD Program, but I always have my doubts - like if I'm smart enough, will I have time to start a family, whether or not I need it for career advancement, work-life-school balance... so many questions. Not to mention my deathly fear of speaking in front of groups of people... without shaking and crying... -_- i hate it. need to go to toast masters or something...
 
 I have no idea where I'm headed, but taking one thing at a time!!!
 
