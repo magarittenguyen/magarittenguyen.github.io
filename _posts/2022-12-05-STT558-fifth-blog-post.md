@@ -33,7 +33,7 @@ i. continue on the programming / technical path
 statsitical programmer III -> senior statistical programmer I -> senior statistical programmer II ->   
 
 ii. continue on the programming / technical path OR managerial path  
-principle statistical programmer I -> principle statistical programmer II 
+principle statistical programmer I -> principle statistical programmer II   
 or  
 associate manager -> manager -> senior manager -> associate director (idk if ill ever make it here, but again keeping my options open!)  
 
